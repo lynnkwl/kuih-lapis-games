@@ -20,7 +20,7 @@ services:
     image: kuehlapis/wishlist:1.0
     restart: always
     environment:
-      dbURL: mysql+mysqlconnector://is213@host.docker.internal:3306/book
+      dbURL: http://wishlist:5001/wishlist
 
 
   # #################################
@@ -34,7 +34,7 @@ services:
 
   # ###############################################
   # # callbook: The test_invoke_http.py program
-  # ###############################################
+  # ############################################### 
   # callbook:
   #   image: caifan4eva/callbook:1.0
   #   depends_on:
