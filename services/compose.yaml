@@ -13,6 +13,16 @@ services:
       - "8080:5000"
     # other configurations such as volumes, ports, etc.
 
+  #################################
+  # wishlist: The wishlist microservice
+  #################################
+  wishlist:
+    image: kuehlapis/wishlist:1.0
+    restart: always
+    environment:
+      dbURL: mysql+mysqlconnector://is213@host.docker.internal:3306/book
+
+
   # #################################
   # # Book: The Book microservice
   # #################################
