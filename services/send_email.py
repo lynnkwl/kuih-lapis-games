@@ -11,7 +11,7 @@
 #      }
 #   2. The application will respond with a JSON message indicating that the email will be sent.
 
-
+# Note: You can add new lines to email_body using return carriage, "\n"
 
 from redmail import gmail
 from flask import Flask, request, jsonify
