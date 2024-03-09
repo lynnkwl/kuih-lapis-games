@@ -13,6 +13,18 @@ services:
       - "8080:5000"
     # other configurations such as volumes, ports, etc.
 
+  #################################
+  # wishlist: The wishlist microservice
+  #################################
+  wishlist:
+    image: kuehlapis/wishlist:1.0
+    restart: always
+    environment:
+      dbURL: http://wishlist:5001/wishlist
+    ports:
+      - "8081:5000"
+
+
   # #################################
   # # Book: The Book microservice
   # #################################
@@ -24,7 +36,7 @@ services:
 
   # ###############################################
   # # callbook: The test_invoke_http.py program
-  # ###############################################
+  # ############################################### 
   # callbook:
   #   image: caifan4eva/callbook:1.0
   #   depends_on:
