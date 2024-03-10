@@ -1,34 +1,25 @@
 version: '3'
 services:
-  #################################
-  # Telegram bot: The notification microservice
-  #################################
-  notification:
-    image: caifan4eva/notification:1.0
-    restart: always
-    build: .
-    environment:
-      - TELEGRAM_BOT_TOKEN=6475666330:AAFuGhLSKQ8hGh41wbErRxNE8HDyCLwXlWQ
-    ports:
-      - "8080:5000"
-    # other configurations such as volumes, ports, etc.
 
   # #################################
-  # # Book: The Book microservice
+  # # wishlist: The wishlist microservice
   # #################################
-  # book:
-  #   image: caifan4eva/book:1.0
+  # wishlist:
+  #   image: kuehlapis/wishlist:1.0  
   #   restart: always
   #   environment:
-  #     dbURL: mysql+mysqlconnector://is213@host.docker.internal:3306/book
+  #     dbURL: http://wishlist:5001/wishlist
+  #   ports:
+  #     - "8081:5000"
 
-  # ###############################################
-  # # callbook: The test_invoke_http.py program
-  # ###############################################
-  # callbook:
-  #   image: caifan4eva/callbook:1.0
-  #   depends_on:
-  #     book:
-  #       condition: service_started
-  #   environment:
-  #     bookURL: http://book:15000/book
+
+
+  #################################
+  # send_email: The notification microservice
+  #################################
+  send_email:
+    image: caifan4eva/send_email:1.0
+    restart: always
+    build: .
+    ports:
+      - "8082:5000"
