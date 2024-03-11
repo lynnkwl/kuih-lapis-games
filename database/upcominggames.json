@@ -1,0 +1,3942 @@
+{
+    "results": [
+        {
+            "hits": [
+                {
+                    "exclusive": false,
+                    "esrbRating": "T",
+                    "urlKey": "freedom-planet-2-switch",
+                    "franchises": [],
+                    "updatedAt": "2024-03-01T19:09:08.000Z",
+                    "contentRatingCode": "T",
+                    "platinumPoints": null,
+                    "productImage": "ncom/software/switch/70010000067397/e1960120226098393b9676be160ba9f61f51f438b33303f4d4da227d53c2e03e",
+                    "contentDescriptors": [
+                        {
+                            "label": "Fantasy Violence",
+                            "type": "CONTENT_DESCRIPTOR"
+                        },
+                        {
+                            "label": "Suggestive Themes",
+                            "type": "CONTENT_DESCRIPTOR"
+                        }
+                    ],
+                    "priceRange": "$20 - $39.99",
+                    "releaseDateDisplay": null,
+                    "topLevelCategory": "Games",
+                    "nsuid": "70010000067397",
+                    "topLevelFilters": [
+                        "Deals"
+                    ],
+                    "playerCount": "Single Player",
+                    "featuredProduct": false,
+                    "categoryIds": [
+                        "ODUx",
+                        "ODU0"
+                    ],
+                    "nsoFeatures": [
+                        "Save Data Cloud"
+                    ],
+                    "releaseDate": "2024-04-04T00:00:00.000Z",
+                    "hasDlc": false,
+                    "editions": [
+                        "Digital"
+                    ],
+                    "collectionPriceRange": "$20 - $39.99",
+                    "url": "/us/store/products/freedom-planet-2-switch/",
+                    "_distinctSeqID": 0,
+                    "corePlatforms": [
+                        "Nintendo Switch"
+                    ],
+                    "price": {
+                        "regPrice": 24.99,
+                        "finalPrice": 22.49,
+                        "salePrice": 22.49
+                    },
+                    "availability": [
+                        "Pre-order",
+                        "Coming soon"
+                    ],
+                    "softwarePublisher": "Marvelous (XSEED)",
+                    "isSalableQty": true,
+                    "title": "Freedom Planet 2",
+                    "contentRating": {
+                        "code": "t",
+                        "isCompilation": false,
+                        "requiresAgeGate": false,
+                        "system": "ESRB"
+                    },
+                    "topLevelCategoryCode": "GAMES",
+                    "demoNsuid": null,
+                    "genres": [
+                        "Action",
+                        "Adventure",
+                        "Platformer"
+                    ],
+                    "description": null,
+                    "platform": "Nintendo Switch",
+                    "sku": "7100067397",
+                    "playModes": [
+                        "TV mode",
+                        "Tabletop mode",
+                        "Handheld mode"
+                    ],
+                    "softwareDeveloper": null,
+                    "platformCode": "NINTENDO_SWITCH",
+                    "dlcType": null,
+                    "eshopDetails": {
+                        "discountPriceEnd": "2024-04-11T06:59:59Z",
+                        "goldPoints": 113,
+                        "baseGoldPoints": 113
+                    },
+                    "objectID": "7100067397",
+                    "esrbDescriptors": [
+                        "Fantasy Violence",
+                        "Suggestive Themes"
+                    ]
+                },
+                {
+                    "objectID": "7100073544",
+                    "categoryIds": [
+                        "ODUx",
+                        "ODU0"
+                    ],
+                    "isSalableQty": true,
+                    "topLevelCategoryCode": "GAMES",
+                    "nsoFeatures": [],
+                    "url": "/us/store/products/girl-genius-adventures-in-castle-heterodyne-switch/",
+                    "topLevelFilters": [],
+                    "urlKey": "girl-genius-adventures-in-castle-heterodyne-switch",
+                    "platform": "Nintendo Switch",
+                    "featuredProduct": false,
+                    "platformCode": "NINTENDO_SWITCH",
+                    "description": null,
+                    "releaseDate": "2024-04-03T00:00:00.000Z",
+                    "softwarePublisher": "Rain",
+                    "eshopDetails": {
+                        "discountPriceEnd": null,
+                        "goldPoints": null,
+                        "baseGoldPoints": null
+                    },
+                    "softwareDeveloper": "Rain",
+                    "playerCount": "Single Player",
+                    "contentRatingCode": "T",
+                    "_distinctSeqID": 0,
+                    "contentDescriptors": [
+                        {
+                            "label": "Fantasy Violence",
+                            "type": "CONTENT_DESCRIPTOR"
+                        },
+                        {
+                            "label": "Mild Suggestive Themes",
+                            "type": "CONTENT_DESCRIPTOR"
+                        },
+                        {
+                            "label": "Blood and Gore",
+                            "type": "CONTENT_DESCRIPTOR"
+                        }
+                    ],
+                    "releaseDateDisplay": null,
+                    "editions": [
+                        "Digital"
+                    ],
+                    "hasDlc": false,
+                    "collectionPriceRange": "$20 - $39.99",
+                    "availability": [
+                        "Coming soon"
+                    ],
+                    "esrbRating": "T",
+                    "price": {
+                        "regPrice": 29.99,
+                        "finalPrice": 29.99,
+                        "salePrice": null
+                    },
+                    "productImage": "ncom/software/switch/70010000073544/82d1431739981cb8db1432f5aa5e58e60a088e25afb6876de20a218d9c259b0a",
+                    "nsuid": "70010000073544",
+                    "genres": [
+                        "Adventure",
+                        "Action",
+                        "Puzzle",
+                        "Fighting"
+                    ],
+                    "contentRating": {
+                        "code": "t",
+                        "isCompilation": false,
+                        "requiresAgeGate": false,
+                        "system": "ESRB"
+                    },
+                    "corePlatforms": [
+                        "Nintendo Switch"
+                    ],
+                    "priceRange": "$20 - $39.99",
+                    "franchises": [],
+                    "esrbDescriptors": [
+                        "Fantasy Violence",
+                        "Mild Suggestive Themes",
+                        "Blood and Gore"
+                    ],
+                    "playModes": [
+                        "TV mode",
+                        "Tabletop mode",
+                        "Handheld mode"
+                    ],
+                    "sku": "7100073544",
+                    "demoNsuid": null,
+                    "exclusive": false,
+                    "updatedAt": "2024-02-19T23:08:21.000Z",
+                    "platinumPoints": null,
+                    "title": "Girl Genius: Adventures In Castle Heterodyne",
+                    "dlcType": null,
+                    "topLevelCategory": "Games"
+                },
+                {
+                    "contentDescriptors": [],
+                    "platform": "Nintendo Switch",
+                    "franchises": [],
+                    "title": "3D Printer - PrintMaster Simulator",
+                    "topLevelCategoryCode": "GAMES",
+                    "url": "/us/store/products/3d-printer-printmaster-simulator-switch/",
+                    "nsuid": "70010000075270",
+                    "releaseDate": "2024-03-29T00:00:00.000Z",
+                    "corePlatforms": [
+                        "Nintendo Switch"
+                    ],
+                    "demoNsuid": null,
+                    "productImage": "ncom/software/switch/70010000075270/f3a1af1a2cbe957f3fafa9a0ab598bab6ed931109e4d50c5f9d1c7edb0c12aab",
+                    "priceRange": "$10 - $19.99",
+                    "esrbDescriptors": [],
+                    "collectionPriceRange": "$10 - $19.99",
+                    "contentRating": {
+                        "code": "e",
+                        "isCompilation": false,
+                        "requiresAgeGate": false,
+                        "system": "ESRB"
+                    },
+                    "topLevelFilters": [],
+                    "exclusive": false,
+                    "contentRatingCode": "E",
+                    "hasDlc": false,
+                    "softwareDeveloper": null,
+                    "updatedAt": "2024-03-05T05:43:48.000Z",
+                    "categoryIds": [
+                        "ODUx",
+                        "ODU0"
+                    ],
+                    "isSalableQty": true,
+                    "genres": [
+                        "Simulation",
+                        "Strategy",
+                        "Training",
+                        "Education"
+                    ],
+                    "playModes": [
+                        "TV mode",
+                        "Tabletop mode",
+                        "Handheld mode"
+                    ],
+                    "releaseDateDisplay": null,
+                    "nsoFeatures": [
+                        "Save Data Cloud"
+                    ],
+                    "price": {
+                        "finalPrice": 11.99,
+                        "regPrice": 11.99,
+                        "salePrice": null
+                    },
+                    "platformCode": "NINTENDO_SWITCH",
+                    "objectID": "7100075270",
+                    "featuredProduct": false,
+                    "description": null,
+                    "softwarePublisher": "GAMETOTOP.CC",
+                    "editions": [
+                        "Digital"
+                    ],
+                    "esrbRating": "E",
+                    "topLevelCategory": "Games",
+                    "_distinctSeqID": 0,
+                    "sku": "7100075270",
+                    "playerCount": "Single Player",
+                    "urlKey": "3d-printer-printmaster-simulator-switch",
+                    "availability": [
+                        "Coming soon"
+                    ],
+                    "dlcType": null,
+                    "eshopDetails": {
+                        "discountPriceEnd": null,
+                        "goldPoints": null,
+                        "baseGoldPoints": null
+                    },
+                    "platinumPoints": null
+                },
+                {
+                    "softwareDeveloper": null,
+                    "topLevelCategory": "Games",
+                    "url": "/us/store/products/monster-panic-switch/",
+                    "dlcType": null,
+                    "categoryIds": [
+                        "ODUx",
+                        "ODU0"
+                    ],
+                    "eshopDetails": {
+                        "discountPriceEnd": null,
+                        "goldPoints": null,
+                        "baseGoldPoints": null
+                    },
+                    "releaseDateDisplay": null,
+                    "availability": [
+                        "Coming soon"
+                    ],
+                    "priceRange": "$10 - $19.99",
+                    "objectID": "7100078564",
+                    "urlKey": "monster-panic-switch",
+                    "franchises": [],
+                    "contentRatingCode": "E",
+                    "contentRating": {
+                        "code": "e",
+                        "isCompilation": false,
+                        "requiresAgeGate": false,
+                        "system": "ESRB"
+                    },
+                    "description": null,
+                    "topLevelCategoryCode": "GAMES",
+                    "corePlatforms": [
+                        "Nintendo Switch"
+                    ],
+                    "esrbRating": "E",
+                    "title": "Monster Panic",
+                    "playerCount": "Single Player",
+                    "contentDescriptors": [
+                        {
+                            "label": "Mild Fantasy Violence",
+                            "type": "CONTENT_DESCRIPTOR"
+                        }
+                    ],
+                    "updatedAt": "2024-03-05T00:07:16.000Z",
+                    "sku": "7100078564",
+                    "collectionPriceRange": "$10 - $19.99",
+                    "nsuid": "70010000078564",
+                    "_distinctSeqID": 0,
+                    "price": {
+                        "regPrice": 11.99,
+                        "finalPrice": 11.99,
+                        "salePrice": null
+                    },
+                    "exclusive": false,
+                    "topLevelFilters": [],
+                    "esrbDescriptors": [
+                        "Mild Fantasy Violence"
+                    ],
+                    "featuredProduct": false,
+                    "platformCode": "NINTENDO_SWITCH",
+                    "editions": [
+                        "Digital"
+                    ],
+                    "hasDlc": false,
+                    "playModes": [
+                        "TV mode",
+                        "Tabletop mode",
+                        "Handheld mode"
+                    ],
+                    "platinumPoints": null,
+                    "releaseDate": "2024-03-28T00:00:00.000Z",
+                    "softwarePublisher": "Happy Player",
+                    "genres": [
+                        "Adventure",
+                        "Action",
+                        "Role-Playing",
+                        "Strategy"
+                    ],
+                    "platform": "Nintendo Switch",
+                    "demoNsuid": null,
+                    "isSalableQty": true,
+                    "productImage": "ncom/software/switch/70010000078564/8a26c7452b6f8f40595aefc2d4a4f94e7fda0e020089f17a9f3fc2fdb581c2f2",
+                    "nsoFeatures": [
+                        "Save Data Cloud"
+                    ]
+                },
+                {
+                    "softwarePublisher": "Tendokore",
+                    "demoNsuid": null,
+                    "playModes": [
+                        "TV mode",
+                        "Tabletop mode",
+                        "Handheld mode"
+                    ],
+                    "editions": [
+                        "Digital"
+                    ],
+                    "title": "Blind Shot",
+                    "hasDlc": false,
+                    "collectionPriceRange": "$0 - $9.99",
+                    "platinumPoints": null,
+                    "platformCode": "NINTENDO_SWITCH",
+                    "isSalableQty": true,
+                    "_distinctSeqID": 0,
+                    "topLevelCategory": "Games",
+                    "softwareDeveloper": "Pixel Trapps",
+                    "topLevelCategoryCode": "GAMES",
+                    "releaseDate": "2024-03-28T00:00:00.000Z",
+                    "price": {
+                        "finalPrice": 4.99,
+                        "regPrice": 4.99,
+                        "salePrice": null
+                    },
+                    "corePlatforms": [
+                        "Nintendo Switch"
+                    ],
+                    "availability": [
+                        "Coming soon"
+                    ],
+                    "exclusive": false,
+                    "genres": [
+                        "Action",
+                        "Platformer",
+                        "Arcade"
+                    ],
+                    "description": null,
+                    "priceRange": "$0 - $4.99",
+                    "topLevelFilters": [],
+                    "productImage": "ncom/software/switch/70010000076640/6a0cdbda6d8ed5da737952f5fbf55ece65af5c343fa7b190e0ba59ca1a140c5b",
+                    "contentRating": {
+                        "code": "e",
+                        "isCompilation": false,
+                        "requiresAgeGate": false,
+                        "system": "ESRB"
+                    },
+                    "esrbDescriptors": [
+                        "Comic Mischief",
+                        "Mild Fantasy Violence",
+                        "Tobacco Reference"
+                    ],
+                    "objectID": "7100076640",
+                    "nsoFeatures": [
+                        "Save Data Cloud"
+                    ],
+                    "urlKey": "blind-shot-switch",
+                    "platform": "Nintendo Switch",
+                    "url": "/us/store/products/blind-shot-switch/",
+                    "updatedAt": "2024-02-19T22:50:20.000Z",
+                    "featuredProduct": false,
+                    "contentDescriptors": [
+                        {
+                            "label": "Comic Mischief",
+                            "type": "CONTENT_DESCRIPTOR"
+                        },
+                        {
+                            "label": "Mild Fantasy Violence",
+                            "type": "CONTENT_DESCRIPTOR"
+                        },
+                        {
+                            "label": "Tobacco Reference",
+                            "type": "CONTENT_DESCRIPTOR"
+                        }
+                    ],
+                    "playerCount": "Single Player",
+                    "releaseDateDisplay": null,
+                    "nsuid": "70010000076640",
+                    "esrbRating": "E",
+                    "contentRatingCode": "E",
+                    "franchises": [],
+                    "eshopDetails": {
+                        "discountPriceEnd": null,
+                        "goldPoints": null,
+                        "baseGoldPoints": null
+                    },
+                    "sku": "7100076640",
+                    "dlcType": null,
+                    "categoryIds": [
+                        "ODUx",
+                        "ODU0"
+                    ]
+                },
+                {
+                    "urlKey": "contraptions-collection-switch",
+                    "url": "/us/store/products/contraptions-collection-switch/",
+                    "nsuid": "70010000075815",
+                    "topLevelFilters": [],
+                    "nsoFeatures": [
+                        "Save Data Cloud"
+                    ],
+                    "price": {
+                        "regPrice": 29.99,
+                        "finalPrice": 29.99,
+                        "salePrice": null
+                    },
+                    "demoNsuid": null,
+                    "platformCode": "NINTENDO_SWITCH",
+                    "contentRatingCode": "E",
+                    "topLevelCategoryCode": "GAMES",
+                    "collectionPriceRange": "$20 - $39.99",
+                    "updatedAt": "2024-02-29T17:09:17.000Z",
+                    "isSalableQty": true,
+                    "sku": "7100075815",
+                    "editions": [
+                        "Digital"
+                    ],
+                    "description": null,
+                    "softwareDeveloper": "Moragami ",
+                    "categoryIds": [
+                        "ODUx",
+                        "ODU0"
+                    ],
+                    "availability": [
+                        "Pre-order",
+                        "Coming soon"
+                    ],
+                    "playerCount": "Single Player",
+                    "objectID": "7100075815",
+                    "productImage": "ncom/software/switch/70010000075815/9acac5dad9b2eafeb56f9f3bb8559d0d5dfa54f50d2edeb1e67202472bffa79d",
+                    "genres": [
+                        "Puzzle"
+                    ],
+                    "esrbDescriptors": [
+                        "Mild Fantasy Violence"
+                    ],
+                    "eshopDetails": {
+                        "discountPriceEnd": null,
+                        "goldPoints": 150,
+                        "baseGoldPoints": 150
+                    },
+                    "topLevelCategory": "Games",
+                    "_distinctSeqID": 0,
+                    "featuredProduct": false,
+                    "esrbRating": "E",
+                    "contentDescriptors": [
+                        {
+                            "label": "Mild Fantasy Violence",
+                            "type": "CONTENT_DESCRIPTOR"
+                        }
+                    ],
+                    "dlcType": null,
+                    "exclusive": false,
+                    "releaseDateDisplay": null,
+                    "corePlatforms": [
+                        "Nintendo Switch"
+                    ],
+                    "franchises": [],
+                    "priceRange": "$20 - $39.99",
+                    "contentRating": {
+                        "code": "e",
+                        "isCompilation": false,
+                        "requiresAgeGate": false,
+                        "system": "ESRB"
+                    },
+                    "hasDlc": false,
+                    "softwarePublisher": "GS2 Games",
+                    "releaseDate": "2024-03-28T00:00:00.000Z",
+                    "platinumPoints": null,
+                    "platform": "Nintendo Switch",
+                    "title": "Contraptions Collection",
+                    "playModes": [
+                        "TV mode",
+                        "Tabletop mode",
+                        "Handheld mode"
+                    ]
+                },
+                {
+                    "description": null,
+                    "isSalableQty": true,
+                    "platformCode": "NINTENDO_SWITCH",
+                    "topLevelCategoryCode": "GAMES",
+                    "productImage": "ncom/software/switch/70010000072920/c3321eff2495a059263505256f1fd31d1d6017d8150d1c54c6166d78b8ee83d1",
+                    "demoNsuid": null,
+                    "playModes": [
+                        "TV mode",
+                        "Tabletop mode",
+                        "Handheld mode"
+                    ],
+                    "topLevelFilters": [],
+                    "platform": "Nintendo Switch",
+                    "softwarePublisher": "PixelHeart",
+                    "url": "/us/store/products/the-world-after-switch/",
+                    "nsuid": "70010000072920",
+                    "eshopDetails": {
+                        "discountPriceEnd": null,
+                        "goldPoints": null,
+                        "baseGoldPoints": null
+                    },
+                    "softwareDeveloper": "Burning Sunset",
+                    "contentDescriptors": [
+                        {
+                            "label": "Violence",
+                            "type": "CONTENT_DESCRIPTOR"
+                        }
+                    ],
+                    "playerCount": "Single Player",
+                    "hasDlc": false,
+                    "featuredProduct": false,
+                    "nsoFeatures": [
+                        "Save Data Cloud"
+                    ],
+                    "updatedAt": "2024-03-05T02:29:15.000Z",
+                    "collectionPriceRange": "$0 - $9.99",
+                    "corePlatforms": [
+                        "Nintendo Switch"
+                    ],
+                    "releaseDate": "2024-03-28T00:00:00.000Z",
+                    "sku": "7100072920",
+                    "title": "The World After",
+                    "contentRatingCode": "T",
+                    "releaseDateDisplay": null,
+                    "contentRating": {
+                        "code": "t",
+                        "isCompilation": false,
+                        "requiresAgeGate": false,
+                        "system": "ESRB"
+                    },
+                    "dlcType": null,
+                    "price": {
+                        "finalPrice": 9.99,
+                        "regPrice": 9.99,
+                        "salePrice": null
+                    },
+                    "categoryIds": [
+                        "ODUx",
+                        "ODU0"
+                    ],
+                    "topLevelCategory": "Games",
+                    "esrbRating": "T",
+                    "franchises": [],
+                    "platinumPoints": null,
+                    "genres": [
+                        "Adventure",
+                        "Video",
+                        "Other"
+                    ],
+                    "editions": [
+                        "Digital"
+                    ],
+                    "availability": [
+                        "Coming soon"
+                    ],
+                    "_distinctSeqID": 0,
+                    "exclusive": false,
+                    "objectID": "7100072920",
+                    "urlKey": "the-world-after-switch",
+                    "esrbDescriptors": [
+                        "Violence"
+                    ],
+                    "priceRange": "$5 - $9.99"
+                },
+                {
+                    "playerCount": "Single Player",
+                    "demoNsuid": null,
+                    "platformCode": "NINTENDO_SWITCH",
+                    "playModes": [
+                        "TV mode",
+                        "Tabletop mode",
+                        "Handheld mode"
+                    ],
+                    "esrbDescriptors": [
+                        "Mild Fantasy Violence"
+                    ],
+                    "categoryIds": [
+                        "ODUx",
+                        "ODU0"
+                    ],
+                    "hasDlc": false,
+                    "topLevelFilters": [],
+                    "collectionPriceRange": "$20 - $39.99",
+                    "softwarePublisher": "Nicalis",
+                    "topLevelCategory": "Games",
+                    "updatedAt": "2023-12-06T20:46:26.000Z",
+                    "releaseDate": "2024-03-28T00:00:00.000Z",
+                    "platinumPoints": null,
+                    "exclusive": false,
+                    "featuredProduct": false,
+                    "contentRatingCode": "E",
+                    "nsoFeatures": [
+                        "Save Data Cloud"
+                    ],
+                    "platform": "Nintendo Switch",
+                    "contentRating": {
+                        "code": "e",
+                        "isCompilation": false,
+                        "requiresAgeGate": false,
+                        "system": "ESRB"
+                    },
+                    "productImage": "ncom/software/switch/70010000066559/36426f576b1cbeaf4d5ce7ea86b9994548798029fe8426bf55e6a0b19b9df35f",
+                    "eshopDetails": {
+                        "discountPriceEnd": null,
+                        "goldPoints": 200,
+                        "baseGoldPoints": 200
+                    },
+                    "priceRange": "$20 - $39.99",
+                    "franchises": [],
+                    "contentDescriptors": [
+                        {
+                            "label": "Mild Fantasy Violence",
+                            "type": "CONTENT_DESCRIPTOR"
+                        }
+                    ],
+                    "objectID": "7100066559",
+                    "nsuid": "70010000066559",
+                    "isSalableQty": true,
+                    "topLevelCategoryCode": "GAMES",
+                    "releaseDateDisplay": null,
+                    "softwareDeveloper": null,
+                    "corePlatforms": [
+                        "Nintendo Switch"
+                    ],
+                    "_distinctSeqID": 0,
+                    "urlKey": "touch-detective-3-plus-the-complete-case-files-switch",
+                    "sku": "7100066559",
+                    "dlcType": null,
+                    "description": null,
+                    "price": {
+                        "finalPrice": 39.99,
+                        "regPrice": 39.99,
+                        "salePrice": null
+                    },
+                    "title": "Touch Detective 3 + \nThe Complete Case Files",
+                    "genres": [
+                        "Adventure"
+                    ],
+                    "editions": [
+                        "Digital"
+                    ],
+                    "url": "/us/store/products/touch-detective-3-plus-the-complete-case-files-switch/",
+                    "esrbRating": "E",
+                    "availability": [
+                        "Pre-order",
+                        "Coming soon"
+                    ]
+                },
+                {
+                    "updatedAt": "2024-02-15T08:09:12.000Z",
+                    "featuredProduct": false,
+                    "eshopDetails": {
+                        "discountPriceEnd": null,
+                        "goldPoints": null,
+                        "baseGoldPoints": null
+                    },
+                    "softwareDeveloper": null,
+                    "description": null,
+                    "exclusive": false,
+                    "platform": "Nintendo Switch",
+                    "_distinctSeqID": 0,
+                    "contentDescriptors": [
+                        {
+                            "label": "Blood and Gore",
+                            "type": "CONTENT_DESCRIPTOR"
+                        },
+                        {
+                            "label": "Violence",
+                            "type": "CONTENT_DESCRIPTOR"
+                        },
+                        {
+                            "label": "Partial Nudity",
+                            "type": "CONTENT_DESCRIPTOR"
+                        },
+                        {
+                            "label": "Users Interact",
+                            "type": "INTERACTIVE_ELEMENT"
+                        }
+                    ],
+                    "playModes": [
+                        "TV mode",
+                        "Tabletop mode",
+                        "Handheld mode"
+                    ],
+                    "price": {
+                        "regPrice": 39.99,
+                        "finalPrice": 39.99,
+                        "salePrice": null
+                    },
+                    "franchises": [],
+                    "collectionPriceRange": "$20 - $39.99",
+                    "demoNsuid": null,
+                    "categoryIds": [
+                        "ODUx",
+                        "ODU0"
+                    ],
+                    "releaseDateDisplay": null,
+                    "esrbRating": "M",
+                    "productImage": "ncom/software/switch/70010000064401/cfe5dc4e4a476c83b725dea1b86b5bbe5b98710a8975c1f35955aef1c4dc86be",
+                    "urlKey": "outward-definitive-edition-switch",
+                    "esrbDescriptors": [
+                        "Blood and Gore",
+                        "Violence",
+                        "Partial Nudity",
+                        "Users Interact"
+                    ],
+                    "priceRange": "$20 - $39.99",
+                    "availability": [
+                        "Coming soon"
+                    ],
+                    "nsuid": "70010000064401",
+                    "sku": "7100064401",
+                    "dlcType": null,
+                    "topLevelFilters": [],
+                    "softwarePublisher": "PLAION",
+                    "title": "Outward Definitive Edition",
+                    "objectID": "7100064401",
+                    "editions": [
+                        "Digital"
+                    ],
+                    "hasDlc": false,
+                    "contentRating": {
+                        "code": "m",
+                        "isCompilation": false,
+                        "requiresAgeGate": true,
+                        "system": "ESRB"
+                    },
+                    "isSalableQty": true,
+                    "contentRatingCode": "M",
+                    "genres": [
+                        "Role-Playing",
+                        "Adventure"
+                    ],
+                    "platinumPoints": null,
+                    "releaseDate": "2024-03-28T00:00:00.000Z",
+                    "topLevelCategoryCode": "GAMES",
+                    "playerCount": "Single Player",
+                    "topLevelCategory": "Games",
+                    "corePlatforms": [
+                        "Nintendo Switch"
+                    ],
+                    "platformCode": "NINTENDO_SWITCH",
+                    "nsoFeatures": [
+                        "Online Play",
+                        "Save Data Cloud"
+                    ],
+                    "url": "/us/store/products/outward-definitive-edition-switch/"
+                },
+                {
+                    "hasDlc": false,
+                    "isSalableQty": true,
+                    "releaseDateDisplay": null,
+                    "softwareDeveloper": "Ahr Ech",
+                    "nsuid": "70010000056827",
+                    "description": "Pepper Grinder ",
+                    "topLevelFilters": [
+                        "Demo Available"
+                    ],
+                    "topLevelCategoryCode": "GAMES",
+                    "title": "Pepper Grinder",
+                    "demoNsuid": "70030000020668",
+                    "exclusive": false,
+                    "productImage": "ncom/software/switch/70010000056827/8ae8da103bc4f9f5aa604e9e3c003dfba4002e293352b20f5812c999fc27a9e4",
+                    "categoryIds": [
+                        "ODUx",
+                        "ODU0"
+                    ],
+                    "_distinctSeqID": 0,
+                    "price": {
+                        "regPrice": 14.99,
+                        "finalPrice": 14.99,
+                        "salePrice": null
+                    },
+                    "contentRating": {
+                        "code": "e10",
+                        "isCompilation": false,
+                        "requiresAgeGate": false,
+                        "system": "ESRB"
+                    },
+                    "releaseDate": "2024-03-28T00:00:00.000Z",
+                    "genres": [
+                        "Action",
+                        "Adventure",
+                        "Platformer"
+                    ],
+                    "_highlightResult": {
+                        "description": {
+                            "value": "Pepper Grinder ",
+                            "matchLevel": "none",
+                            "matchedWords": []
+                        }
+                    },
+                    "nsoFeatures": [
+                        "Save Data Cloud"
+                    ],
+                    "availability": [
+                        "Coming soon"
+                    ],
+                    "platformCode": "NINTENDO_SWITCH",
+                    "eshopDetails": {
+                        "discountPriceEnd": null,
+                        "goldPoints": null,
+                        "baseGoldPoints": null
+                    },
+                    "franchises": [],
+                    "softwarePublisher": "Devolver Digital",
+                    "esrbDescriptors": [
+                        "Fantasy Violence"
+                    ],
+                    "corePlatforms": [
+                        "Nintendo Switch"
+                    ],
+                    "featuredProduct": false,
+                    "platinumPoints": null,
+                    "sku": "7100056827",
+                    "dlcType": null,
+                    "playerCount": "Single Player",
+                    "playModes": [
+                        "TV mode",
+                        "Tabletop mode",
+                        "Handheld mode"
+                    ],
+                    "contentDescriptors": [
+                        {
+                            "label": "Fantasy Violence",
+                            "type": "CONTENT_DESCRIPTOR"
+                        }
+                    ],
+                    "url": "/us/store/products/pepper-grinder-switch/",
+                    "urlKey": "pepper-grinder-switch",
+                    "editions": [
+                        "Digital"
+                    ],
+                    "esrbRating": "E10",
+                    "priceRange": "$10 - $19.99",
+                    "contentRatingCode": "E10",
+                    "updatedAt": "2024-03-06T20:09:09.000Z",
+                    "collectionPriceRange": "$10 - $19.99",
+                    "topLevelCategory": "Games",
+                    "objectID": "7100056827",
+                    "platform": "Nintendo Switch"
+                },
+                {
+                    "topLevelCategoryCode": "GAMES",
+                    "esrbDescriptors": [
+                        "Crude Humor",
+                        "Suggestive Themes",
+                        "Mild Blood"
+                    ],
+                    "franchises": [],
+                    "objectID": "7100067847",
+                    "playerCount": "Single Player",
+                    "price": {
+                        "finalPrice": 14.99,
+                        "regPrice": 14.99,
+                        "salePrice": null
+                    },
+                    "exclusive": false,
+                    "contentRating": {
+                        "code": "t",
+                        "isCompilation": false,
+                        "requiresAgeGate": false,
+                        "system": "ESRB"
+                    },
+                    "dlcType": null,
+                    "platinumPoints": null,
+                    "platform": "Nintendo Switch",
+                    "hasDlc": false,
+                    "featuredProduct": false,
+                    "demoNsuid": null,
+                    "title": "Sunny Café",
+                    "updatedAt": "2024-02-07T17:50:47.000Z",
+                    "eshopDetails": {
+                        "discountPriceEnd": null,
+                        "goldPoints": null,
+                        "baseGoldPoints": null
+                    },
+                    "softwareDeveloper": "eastasiasoft, GameNobility",
+                    "urlKey": "sunny-cafe-switch",
+                    "availability": [
+                        "Coming soon"
+                    ],
+                    "softwarePublisher": "eastasiasoft",
+                    "collectionPriceRange": "$10 - $19.99",
+                    "esrbRating": "T",
+                    "contentDescriptors": [
+                        {
+                            "label": "Crude Humor",
+                            "type": "CONTENT_DESCRIPTOR"
+                        },
+                        {
+                            "label": "Suggestive Themes",
+                            "type": "CONTENT_DESCRIPTOR"
+                        },
+                        {
+                            "label": "Mild Blood",
+                            "type": "CONTENT_DESCRIPTOR"
+                        }
+                    ],
+                    "genres": [
+                        "Adventure",
+                        "Role-Playing"
+                    ],
+                    "playModes": [
+                        "TV mode",
+                        "Tabletop mode",
+                        "Handheld mode"
+                    ],
+                    "platformCode": "NINTENDO_SWITCH",
+                    "releaseDateDisplay": null,
+                    "sku": "7100067847",
+                    "topLevelCategory": "Games",
+                    "nsoFeatures": [
+                        "Save Data Cloud"
+                    ],
+                    "corePlatforms": [
+                        "Nintendo Switch"
+                    ],
+                    "releaseDate": "2024-03-27T00:00:00.000Z",
+                    "nsuid": "70010000067847",
+                    "isSalableQty": true,
+                    "url": "/us/store/products/sunny-cafe-switch/",
+                    "editions": [
+                        "Digital"
+                    ],
+                    "description": null,
+                    "_distinctSeqID": 0,
+                    "productImage": "ncom/software/switch/70010000067847/aa07a2b239b71d132178537c97635ec26c1f54e9d73624f6f234d34c01333b97",
+                    "categoryIds": [
+                        "ODUx",
+                        "ODU0"
+                    ],
+                    "contentRatingCode": "T",
+                    "topLevelFilters": [],
+                    "priceRange": "$10 - $19.99"
+                },
+                {
+                    "playerCount": "2+",
+                    "esrbRating": "E10",
+                    "featuredProduct": false,
+                    "availability": [
+                        "Coming soon"
+                    ],
+                    "platinumPoints": null,
+                    "eshopDetails": {
+                        "discountPriceEnd": null,
+                        "goldPoints": null,
+                        "baseGoldPoints": null
+                    },
+                    "sku": "7100077991",
+                    "topLevelCategoryCode": "GAMES",
+                    "url": "/us/store/products/shockman-collection-vol-1-switch/",
+                    "nsoFeatures": [
+                        "Save Data Cloud"
+                    ],
+                    "topLevelCategory": "Games",
+                    "esrbDescriptors": [
+                        "Fantasy Violence",
+                        "Mild Blood"
+                    ],
+                    "priceRange": "$10 - $19.99",
+                    "editions": [
+                        "Digital"
+                    ],
+                    "contentRatingCode": "E10",
+                    "categoryIds": [
+                        "ODUx",
+                        "ODU0"
+                    ],
+                    "hasDlc": false,
+                    "productImage": "ncom/software/switch/70010000077991/353e854ca008c7b63d72325363ffbfba727fd0c29b1ab15513fe1cc4727bc794",
+                    "genres": [
+                        "Platformer",
+                        "Adventure",
+                        "Multiplayer"
+                    ],
+                    "urlKey": "shockman-collection-vol-1-switch",
+                    "platform": "Nintendo Switch",
+                    "isSalableQty": true,
+                    "price": {
+                        "finalPrice": 10.99,
+                        "regPrice": 10.99,
+                        "salePrice": null
+                    },
+                    "contentRating": {
+                        "code": "e10",
+                        "isCompilation": false,
+                        "requiresAgeGate": false,
+                        "system": "ESRB"
+                    },
+                    "playModes": [
+                        "TV mode",
+                        "Tabletop mode",
+                        "Handheld mode"
+                    ],
+                    "dlcType": null,
+                    "collectionPriceRange": "$10 - $19.99",
+                    "demoNsuid": null,
+                    "objectID": "7100077991",
+                    "franchises": [],
+                    "description": null,
+                    "exclusive": false,
+                    "platformCode": "NINTENDO_SWITCH",
+                    "softwareDeveloper": null,
+                    "releaseDateDisplay": null,
+                    "updatedAt": "2024-03-06T00:18:36.000Z",
+                    "nsuid": "70010000077991",
+                    "topLevelFilters": [],
+                    "contentDescriptors": [
+                        {
+                            "label": "Fantasy Violence",
+                            "type": "CONTENT_DESCRIPTOR"
+                        },
+                        {
+                            "label": "Mild Blood",
+                            "type": "CONTENT_DESCRIPTOR"
+                        }
+                    ],
+                    "title": "Shockman Collection Vol. 1",
+                    "releaseDate": "2024-03-26T00:00:00.000Z",
+                    "softwarePublisher": "Ratalaika Games",
+                    "corePlatforms": [
+                        "Nintendo Switch"
+                    ],
+                    "_distinctSeqID": 0
+                },
+                {
+                    "softwarePublisher": "GIANTS Software",
+                    "productImage": "ncom/software/switch/70010000066224/c8f90368142697cd51cbb71b0634e376f7c415ecd73f33a13eb56545f715a218",
+                    "softwareDeveloper": "GIANTS Software Entertainment GmbH",
+                    "topLevelFilters": [],
+                    "releaseDateDisplay": null,
+                    "franchises": [],
+                    "sku": "7100066224",
+                    "nsuid": "70010000066224",
+                    "availability": [
+                        "Pre-order",
+                        "Coming soon"
+                    ],
+                    "price": {
+                        "regPrice": 29.99,
+                        "finalPrice": 29.99,
+                        "salePrice": null
+                    },
+                    "demoNsuid": null,
+                    "url": "/us/store/products/farming-simulator-kids-switch/",
+                    "categoryIds": [
+                        "ODUx",
+                        "ODU0"
+                    ],
+                    "esrbDescriptors": [],
+                    "playerCount": "Single Player",
+                    "_distinctSeqID": 0,
+                    "priceRange": "$20 - $39.99",
+                    "platform": "Nintendo Switch",
+                    "genres": [
+                        "Education",
+                        "Adventure",
+                        "Simulation"
+                    ],
+                    "editions": [
+                        "Digital"
+                    ],
+                    "isSalableQty": true,
+                    "dlcType": null,
+                    "featuredProduct": false,
+                    "contentDescriptors": [],
+                    "esrbRating": "E",
+                    "topLevelCategory": "Games",
+                    "title": "Farming Simulator Kids",
+                    "objectID": "7100066224",
+                    "urlKey": "farming-simulator-kids-switch",
+                    "topLevelCategoryCode": "GAMES",
+                    "contentRating": {
+                        "code": "e",
+                        "isCompilation": false,
+                        "requiresAgeGate": false,
+                        "system": "ESRB"
+                    },
+                    "exclusive": false,
+                    "collectionPriceRange": "$20 - $39.99",
+                    "description": null,
+                    "nsoFeatures": [
+                        "Save Data Cloud"
+                    ],
+                    "contentRatingCode": "E",
+                    "playModes": [
+                        "Handheld mode"
+                    ],
+                    "releaseDate": "2024-03-26T00:00:00.000Z",
+                    "updatedAt": "2024-02-23T13:04:30.000Z",
+                    "eshopDetails": {
+                        "discountPriceEnd": null,
+                        "goldPoints": 150,
+                        "baseGoldPoints": 150
+                    },
+                    "corePlatforms": [
+                        "Nintendo Switch"
+                    ],
+                    "platinumPoints": null,
+                    "platformCode": "NINTENDO_SWITCH",
+                    "hasDlc": false
+                },
+                {
+                    "availability": [
+                        "Pre-order",
+                        "Coming soon"
+                    ],
+                    "franchises": [],
+                    "topLevelFilters": [],
+                    "demoNsuid": null,
+                    "contentRatingCode": "M",
+                    "topLevelCategoryCode": "GAMES",
+                    "nsoFeatures": [
+                        "Online Play",
+                        "Save Data Cloud"
+                    ],
+                    "contentDescriptors": [
+                        {
+                            "label": "Blood",
+                            "type": "CONTENT_DESCRIPTOR"
+                        },
+                        {
+                            "label": "Violence",
+                            "type": "CONTENT_DESCRIPTOR"
+                        },
+                        {
+                            "label": "Strong Language",
+                            "type": "CONTENT_DESCRIPTOR"
+                        },
+                        {
+                            "label": "Mature Humor",
+                            "type": "CONTENT_DESCRIPTOR"
+                        }
+                    ],
+                    "nsuid": "70010000064642",
+                    "editions": [
+                        "Digital"
+                    ],
+                    "featuredProduct": false,
+                    "hasDlc": false,
+                    "sku": "7100064642",
+                    "platformCode": "NINTENDO_SWITCH",
+                    "softwarePublisher": "THQ Nordic",
+                    "platform": "Nintendo Switch",
+                    "contentRating": {
+                        "code": "m",
+                        "isCompilation": false,
+                        "requiresAgeGate": true,
+                        "system": "ESRB"
+                    },
+                    "corePlatforms": [
+                        "Nintendo Switch"
+                    ],
+                    "eshopDetails": {
+                        "discountPriceEnd": null,
+                        "goldPoints": 150,
+                        "baseGoldPoints": 150
+                    },
+                    "url": "/us/store/products/south-park-snow-day-switch/",
+                    "collectionPriceRange": "$20 - $39.99",
+                    "esrbRating": "M",
+                    "price": {
+                        "finalPrice": 29.99,
+                        "regPrice": 29.99,
+                        "salePrice": null
+                    },
+                    "playerCount": "Single Player",
+                    "title": "SOUTH PARK: SNOW DAY!",
+                    "updatedAt": "2024-01-15T14:09:12.000Z",
+                    "releaseDate": "2024-03-26T00:00:00.000Z",
+                    "releaseDateDisplay": null,
+                    "esrbDescriptors": [
+                        "Blood",
+                        "Violence",
+                        "Strong Language",
+                        "Mature Humor"
+                    ],
+                    "dlcType": null,
+                    "playModes": [
+                        "TV mode",
+                        "Tabletop mode",
+                        "Handheld mode"
+                    ],
+                    "priceRange": "$20 - $39.99",
+                    "topLevelCategory": "Games",
+                    "description": null,
+                    "genres": [
+                        "Action",
+                        "Adventure"
+                    ],
+                    "_distinctSeqID": 0,
+                    "urlKey": "south-park-snow-day-switch",
+                    "platinumPoints": null,
+                    "exclusive": false,
+                    "softwareDeveloper": "Mi'pu'mi Games GmbH",
+                    "objectID": "7100064642",
+                    "productImage": "ncom/software/switch/70010000064642/0b3adb91ef9ddf5bb2c7e09a9ff3b69600f40b048220975c9f5f29523ba5f2eb",
+                    "categoryIds": [
+                        "ODUx",
+                        "ODU0"
+                    ],
+                    "isSalableQty": true
+                },
+                {
+                    "playModes": [
+                        "TV mode",
+                        "Tabletop mode",
+                        "Handheld mode"
+                    ],
+                    "contentDescriptors": [],
+                    "description": null,
+                    "urlKey": "virtual-girlfriend-dating-simulator-switch",
+                    "topLevelCategory": "Games",
+                    "releaseDate": "2024-03-22T00:00:00.000Z",
+                    "productImage": "ncom/software/switch/70010000077245/bd26520f77b4129fa2c9e0cc341561fcfb38483abe2bc776bba794f20d0c0d12",
+                    "eshopDetails": {
+                        "discountPriceEnd": null,
+                        "goldPoints": null,
+                        "baseGoldPoints": null
+                    },
+                    "title": "Virtual Girlfriend Dating Simulator",
+                    "hasDlc": false,
+                    "dlcType": null,
+                    "_distinctSeqID": 0,
+                    "nsoFeatures": [
+                        "Save Data Cloud"
+                    ],
+                    "genres": [
+                        "Simulation",
+                        "Arcade",
+                        "Training",
+                        "Role-Playing"
+                    ],
+                    "nsuid": "70010000077245",
+                    "softwareDeveloper": null,
+                    "softwarePublisher": "GAMETOTOP.CC",
+                    "isSalableQty": true,
+                    "platinumPoints": null,
+                    "exclusive": false,
+                    "featuredProduct": false,
+                    "url": "/us/store/products/virtual-girlfriend-dating-simulator-switch/",
+                    "price": {
+                        "finalPrice": 9.99,
+                        "regPrice": 9.99,
+                        "salePrice": null
+                    },
+                    "topLevelFilters": [],
+                    "topLevelCategoryCode": "GAMES",
+                    "availability": [
+                        "Coming soon"
+                    ],
+                    "demoNsuid": null,
+                    "corePlatforms": [
+                        "Nintendo Switch"
+                    ],
+                    "collectionPriceRange": "$0 - $9.99",
+                    "updatedAt": "2024-03-05T05:39:33.000Z",
+                    "esrbRating": "E",
+                    "releaseDateDisplay": null,
+                    "contentRatingCode": "E",
+                    "editions": [
+                        "Digital"
+                    ],
+                    "franchises": [],
+                    "esrbDescriptors": [],
+                    "priceRange": "$5 - $9.99",
+                    "sku": "7100077245",
+                    "categoryIds": [
+                        "ODUx",
+                        "ODU0"
+                    ],
+                    "platform": "Nintendo Switch",
+                    "contentRating": {
+                        "code": "e",
+                        "isCompilation": false,
+                        "requiresAgeGate": false,
+                        "system": "ESRB"
+                    },
+                    "platformCode": "NINTENDO_SWITCH",
+                    "playerCount": "Single Player",
+                    "objectID": "7100077245"
+                },
+                {
+                    "corePlatforms": [
+                        "Nintendo Switch"
+                    ],
+                    "exclusive": false,
+                    "eshopDetails": {
+                        "discountPriceEnd": null,
+                        "goldPoints": null,
+                        "baseGoldPoints": null
+                    },
+                    "dlcType": null,
+                    "platformCode": "NINTENDO_SWITCH",
+                    "topLevelCategory": "Games",
+                    "softwareDeveloper": null,
+                    "esrbDescriptors": [
+                        "Fantasy Violence",
+                        "Use of Alcohol",
+                        "Suggestive Themes",
+                        "Language"
+                    ],
+                    "featuredProduct": false,
+                    "platinumPoints": null,
+                    "esrbRating": "E10",
+                    "softwarePublisher": "NIS America",
+                    "updatedAt": "2024-02-08T20:01:27.000Z",
+                    "url": "/us/store/products/the-legend-of-legacy-hd-remastered-switch/",
+                    "productImage": "ncom/software/switch/70010000069798/0f1efff6ff1c5be9e8b717ef092be2c12cbda1cbfa842abc69a0cec246d552dc",
+                    "releaseDate": "2024-03-22T00:00:00.000Z",
+                    "contentDescriptors": [
+                        {
+                            "label": "Fantasy Violence",
+                            "type": "CONTENT_DESCRIPTOR"
+                        },
+                        {
+                            "label": "Use of Alcohol",
+                            "type": "CONTENT_DESCRIPTOR"
+                        },
+                        {
+                            "label": "Suggestive Themes",
+                            "type": "CONTENT_DESCRIPTOR"
+                        },
+                        {
+                            "label": "Language",
+                            "type": "CONTENT_DESCRIPTOR"
+                        }
+                    ],
+                    "priceRange": "$40+",
+                    "categoryIds": [
+                        "ODUx",
+                        "ODU0"
+                    ],
+                    "title": "The Legend of Legacy HD Remastered",
+                    "contentRating": {
+                        "code": "e10",
+                        "isCompilation": false,
+                        "requiresAgeGate": false,
+                        "system": "ESRB"
+                    },
+                    "collectionPriceRange": "$40 - $59.99",
+                    "contentRatingCode": "E10",
+                    "franchises": [],
+                    "sku": "7100069798",
+                    "hasDlc": false,
+                    "demoNsuid": null,
+                    "topLevelFilters": [
+                        "Games with DLC"
+                    ],
+                    "availability": [
+                        "Coming soon"
+                    ],
+                    "description": null,
+                    "price": {
+                        "finalPrice": 49.99,
+                        "regPrice": 49.99,
+                        "salePrice": null
+                    },
+                    "urlKey": "the-legend-of-legacy-hd-remastered-switch",
+                    "_distinctSeqID": 0,
+                    "isSalableQty": true,
+                    "nsoFeatures": [
+                        "Save Data Cloud"
+                    ],
+                    "nsuid": "70010000069798",
+                    "playerCount": "Single Player",
+                    "genres": [
+                        "Role-Playing",
+                        "Adventure",
+                        "Strategy"
+                    ],
+                    "playModes": [
+                        "TV mode",
+                        "Tabletop mode",
+                        "Handheld mode"
+                    ],
+                    "platform": "Nintendo Switch",
+                    "editions": [
+                        "Digital"
+                    ],
+                    "objectID": "7100069798",
+                    "releaseDateDisplay": null,
+                    "topLevelCategoryCode": "GAMES"
+                },
+                {
+                    "nsuid": null,
+                    "demoNsuid": null,
+                    "description": null,
+                    "priceRange": "$40+",
+                    "franchises": [
+                        "Super Mario",
+                        "Princess Peach"
+                    ],
+                    "topLevelCategory": "Games",
+                    "softwarePublisher": "Nintendo",
+                    "categoryIds": [
+                        "ODUx",
+                        "ODU0",
+                        "OTUz",
+                        "MTAyNg==",
+                        "MTA2NQ=="
+                    ],
+                    "playerCount": "Single Player",
+                    "availability": [
+                        "Coming soon"
+                    ],
+                    "esrbRating": "E10",
+                    "collectionPriceRange": "$40 - $59.99",
+                    "exclusive": false,
+                    "editions": [
+                        "Digital",
+                        "Physical"
+                    ],
+                    "urlKey": "princess-peach-showtime-118784",
+                    "releaseDateDisplay": "3/22/2024",
+                    "updatedAt": "2024-02-14T19:46:13.000Z",
+                    "platform": "Nintendo Switch",
+                    "softwareDeveloper": null,
+                    "hasDlc": false,
+                    "esrbDescriptors": [
+                        "Fantasy Violence"
+                    ],
+                    "platinumPoints": null,
+                    "platformCode": "NINTENDO_SWITCH",
+                    "sku": "118784",
+                    "price": {
+                        "finalPrice": 59.99,
+                        "regPrice": 59.99,
+                        "salePrice": null
+                    },
+                    "featuredProduct": false,
+                    "contentRatingCode": "E10",
+                    "dlcType": null,
+                    "objectID": "118784",
+                    "genres": [
+                        "Action",
+                        "Adventure"
+                    ],
+                    "corePlatforms": [
+                        "Nintendo Switch"
+                    ],
+                    "title": "Princess Peach™: Showtime!",
+                    "nsoFeatures": [
+                        "Save Data Cloud"
+                    ],
+                    "url": "/us/store/products/princess-peach-showtime-118784/",
+                    "_distinctSeqID": 0,
+                    "eshopDetails": null,
+                    "contentRating": {
+                        "code": "e10",
+                        "isCompilation": false,
+                        "requiresAgeGate": false,
+                        "system": "ESRB"
+                    },
+                    "releaseDate": "2024-03-22T00:00:00.000Z",
+                    "isSalableQty": true,
+                    "contentDescriptors": [
+                        {
+                            "label": "Fantasy Violence",
+                            "type": "CONTENT_DESCRIPTOR"
+                        }
+                    ],
+                    "productImage": "ncom/My Nintendo Store/EN-US/Nintendo Switch Software/princess-peach-showtime-118784/118784-princess-peach-showtime-1280x720",
+                    "topLevelCategoryCode": "GAMES",
+                    "playModes": [
+                        "Handheld mode",
+                        "Tabletop mode",
+                        "TV mode"
+                    ],
+                    "topLevelFilters": []
+                },
+                {
+                    "description": null,
+                    "esrbDescriptors": [],
+                    "_distinctSeqID": 0,
+                    "price": {
+                        "finalPrice": 4.99,
+                        "regPrice": 4.99,
+                        "salePrice": null
+                    },
+                    "exclusive": false,
+                    "topLevelFilters": [],
+                    "nsuid": "70010000077996",
+                    "availability": [
+                        "Coming soon"
+                    ],
+                    "urlKey": "pull-the-pin-ball-physic-puzzle-switch",
+                    "softwarePublisher": "Megame",
+                    "corePlatforms": [
+                        "Nintendo Switch"
+                    ],
+                    "softwareDeveloper": "Megame Studio",
+                    "genres": [
+                        "Puzzle",
+                        "Arcade",
+                        "Board Game",
+                        "Adventure"
+                    ],
+                    "contentRatingCode": "E",
+                    "sku": "7100077996",
+                    "title": "Pull The Pin: Ball Physic Puzzle",
+                    "contentDescriptors": [],
+                    "playerCount": "Single Player",
+                    "categoryIds": [
+                        "ODUx",
+                        "ODU0"
+                    ],
+                    "dlcType": null,
+                    "franchises": [],
+                    "topLevelCategoryCode": "GAMES",
+                    "releaseDateDisplay": null,
+                    "releaseDate": "2024-03-21T00:00:00.000Z",
+                    "demoNsuid": null,
+                    "isSalableQty": true,
+                    "platformCode": "NINTENDO_SWITCH",
+                    "url": "/us/store/products/pull-the-pin-ball-physic-puzzle-switch/",
+                    "nsoFeatures": [
+                        "Save Data Cloud"
+                    ],
+                    "playModes": [
+                        "TV mode",
+                        "Tabletop mode",
+                        "Handheld mode"
+                    ],
+                    "editions": [
+                        "Digital"
+                    ],
+                    "priceRange": "$0 - $4.99",
+                    "collectionPriceRange": "$0 - $9.99",
+                    "featuredProduct": false,
+                    "platinumPoints": null,
+                    "productImage": "ncom/software/switch/70010000077996/fdbd26a69da37e6ebecdaed2eb48411c1b4c513d1e697c3273907df390fd66b8",
+                    "contentRating": {
+                        "code": "e",
+                        "isCompilation": false,
+                        "requiresAgeGate": false,
+                        "system": "ESRB"
+                    },
+                    "updatedAt": "2024-02-29T17:13:55.000Z",
+                    "esrbRating": "E",
+                    "topLevelCategory": "Games",
+                    "eshopDetails": {
+                        "discountPriceEnd": null,
+                        "goldPoints": null,
+                        "baseGoldPoints": null
+                    },
+                    "platform": "Nintendo Switch",
+                    "objectID": "7100077996",
+                    "hasDlc": false
+                },
+                {
+                    "eshopDetails": {
+                        "discountPriceEnd": null,
+                        "goldPoints": null,
+                        "baseGoldPoints": null
+                    },
+                    "price": {
+                        "regPrice": 4.99,
+                        "finalPrice": 4.99,
+                        "salePrice": null
+                    },
+                    "isSalableQty": true,
+                    "priceRange": "$0 - $4.99",
+                    "platformCode": "NINTENDO_SWITCH",
+                    "updatedAt": "2024-02-26T17:51:55.000Z",
+                    "url": "/us/store/products/attack-of-the-karens-switch/",
+                    "collectionPriceRange": "$0 - $9.99",
+                    "playModes": [
+                        "TV mode",
+                        "Tabletop mode",
+                        "Handheld mode"
+                    ],
+                    "title": "Attack of the Karens",
+                    "esrbRating": "E10",
+                    "releaseDate": "2024-03-21T00:00:00.000Z",
+                    "objectID": "7100077511",
+                    "categoryIds": [
+                        "ODUx",
+                        "ODU0"
+                    ],
+                    "exclusive": false,
+                    "_distinctSeqID": 0,
+                    "playerCount": "Single Player",
+                    "topLevelCategoryCode": "GAMES",
+                    "featuredProduct": false,
+                    "corePlatforms": [
+                        "Nintendo Switch"
+                    ],
+                    "contentDescriptors": [
+                        {
+                            "label": "Fantasy Violence",
+                            "type": "CONTENT_DESCRIPTOR"
+                        }
+                    ],
+                    "franchises": [],
+                    "productImage": "ncom/software/switch/70010000077511/59df446bbd28712aedf4345cf5688a2aa3c4a3699ff1c8b2a772f6fb45dd55e6",
+                    "topLevelCategory": "Games",
+                    "esrbDescriptors": [
+                        "Fantasy Violence"
+                    ],
+                    "sku": "7100077511",
+                    "contentRatingCode": "E10",
+                    "platform": "Nintendo Switch",
+                    "releaseDateDisplay": null,
+                    "hasDlc": false,
+                    "softwarePublisher": "Flynns Arcade",
+                    "platinumPoints": null,
+                    "editions": [
+                        "Digital"
+                    ],
+                    "nsuid": "70010000077511",
+                    "softwareDeveloper": "Studio Primitive",
+                    "contentRating": {
+                        "code": "e10",
+                        "isCompilation": false,
+                        "requiresAgeGate": false,
+                        "system": "ESRB"
+                    },
+                    "nsoFeatures": [
+                        "Save Data Cloud"
+                    ],
+                    "demoNsuid": null,
+                    "topLevelFilters": [],
+                    "availability": [
+                        "Coming soon"
+                    ],
+                    "description": null,
+                    "dlcType": null,
+                    "genres": [
+                        "Arcade",
+                        "Action",
+                        "Role-Playing"
+                    ],
+                    "urlKey": "attack-of-the-karens-switch"
+                },
+                {
+                    "platform": "Nintendo Switch",
+                    "priceRange": "$10 - $19.99",
+                    "platinumPoints": null,
+                    "hasDlc": false,
+                    "objectID": "7100074905",
+                    "nsuid": "70010000074905",
+                    "nsoFeatures": [
+                        "Save Data Cloud"
+                    ],
+                    "description": null,
+                    "editions": [
+                        "Digital"
+                    ],
+                    "contentRatingCode": "E10",
+                    "availability": [
+                        "Coming soon"
+                    ],
+                    "platformCode": "NINTENDO_SWITCH",
+                    "urlKey": "scott-whiskers-in-the-search-for-mr-fumbleclaw-switch",
+                    "softwarePublisher": "Fancy Factory",
+                    "playModes": [
+                        "TV mode",
+                        "Tabletop mode",
+                        "Handheld mode"
+                    ],
+                    "updatedAt": "2024-01-26T19:32:49.000Z",
+                    "topLevelCategoryCode": "GAMES",
+                    "isSalableQty": true,
+                    "playerCount": "Single Player",
+                    "softwareDeveloper": "Fancy Factory",
+                    "exclusive": false,
+                    "contentRating": {
+                        "code": "e10",
+                        "isCompilation": false,
+                        "requiresAgeGate": false,
+                        "system": "ESRB"
+                    },
+                    "collectionPriceRange": "$10 - $19.99",
+                    "url": "/us/store/products/scott-whiskers-in-the-search-for-mr-fumbleclaw-switch/",
+                    "genres": [
+                        "Adventure",
+                        "Puzzle"
+                    ],
+                    "corePlatforms": [
+                        "Nintendo Switch"
+                    ],
+                    "price": {
+                        "finalPrice": 14.99,
+                        "regPrice": 14.99,
+                        "salePrice": null
+                    },
+                    "dlcType": null,
+                    "eshopDetails": {
+                        "discountPriceEnd": null,
+                        "goldPoints": null,
+                        "baseGoldPoints": null
+                    },
+                    "_distinctSeqID": 0,
+                    "productImage": "ncom/software/switch/70010000074905/f254285411fdd6ed46892d65cc68a0570532ad7c258d8b005ff06bf723ff6df1",
+                    "featuredProduct": false,
+                    "sku": "7100074905",
+                    "demoNsuid": null,
+                    "esrbDescriptors": [
+                        "Mild Fantasy Violence",
+                        "Use of Tobacco"
+                    ],
+                    "esrbRating": "E10",
+                    "releaseDateDisplay": null,
+                    "releaseDate": "2024-03-21T00:00:00.000Z",
+                    "title": "Scott Whiskers in: the Search for Mr. Fumbleclaw",
+                    "topLevelCategory": "Games",
+                    "contentDescriptors": [
+                        {
+                            "label": "Mild Fantasy Violence",
+                            "type": "CONTENT_DESCRIPTOR"
+                        },
+                        {
+                            "label": "Use of Tobacco",
+                            "type": "CONTENT_DESCRIPTOR"
+                        }
+                    ],
+                    "categoryIds": [
+                        "ODUx",
+                        "ODU0"
+                    ],
+                    "topLevelFilters": [],
+                    "franchises": []
+                },
+                {
+                    "sku": "7100074011",
+                    "urlKey": "bad-chicken-switch",
+                    "corePlatforms": [
+                        "Nintendo Switch"
+                    ],
+                    "contentRatingCode": "E",
+                    "playerCount": "Single Player",
+                    "softwareDeveloper": "Coquibyte Games",
+                    "releaseDate": "2024-03-21T00:00:00.000Z",
+                    "esrbRating": "E",
+                    "exclusive": false,
+                    "topLevelCategoryCode": "GAMES",
+                    "topLevelFilters": [],
+                    "dlcType": null,
+                    "url": "/us/store/products/bad-chicken-switch/",
+                    "_distinctSeqID": 0,
+                    "title": "Bad Chicken",
+                    "contentDescriptors": [],
+                    "nsuid": "70010000074011",
+                    "priceRange": "$10 - $19.99",
+                    "softwarePublisher": null,
+                    "releaseDateDisplay": null,
+                    "price": {
+                        "finalPrice": 19.99,
+                        "regPrice": 19.99,
+                        "salePrice": null
+                    },
+                    "hasDlc": false,
+                    "nsoFeatures": [
+                        "Save Data Cloud"
+                    ],
+                    "contentRating": {
+                        "code": "e",
+                        "isCompilation": false,
+                        "requiresAgeGate": false,
+                        "system": "ESRB"
+                    },
+                    "eshopDetails": {
+                        "discountPriceEnd": null,
+                        "goldPoints": null,
+                        "baseGoldPoints": null
+                    },
+                    "isSalableQty": true,
+                    "categoryIds": [
+                        "ODUx",
+                        "ODU0"
+                    ],
+                    "esrbDescriptors": [],
+                    "updatedAt": "2024-02-22T17:13:47.000Z",
+                    "objectID": "7100074011",
+                    "playModes": [
+                        "TV mode",
+                        "Tabletop mode",
+                        "Handheld mode"
+                    ],
+                    "description": null,
+                    "productImage": "ncom/software/switch/70010000074011/9c3193be89a1ea801366eeed22766ebd200b8d0202e44c3ccfeaeb917291f6eb",
+                    "collectionPriceRange": "$10 - $19.99",
+                    "platformCode": "NINTENDO_SWITCH",
+                    "topLevelCategory": "Games",
+                    "platinumPoints": null,
+                    "platform": "Nintendo Switch",
+                    "demoNsuid": null,
+                    "genres": [
+                        "Action",
+                        "Arcade",
+                        "Adventure"
+                    ],
+                    "availability": [
+                        "Coming soon"
+                    ],
+                    "editions": [
+                        "Digital"
+                    ],
+                    "featuredProduct": false,
+                    "franchises": []
+                },
+                {
+                    "collectionPriceRange": "$0 - $9.99",
+                    "softwareDeveloper": null,
+                    "eshopDetails": {
+                        "discountPriceEnd": null,
+                        "goldPoints": null,
+                        "baseGoldPoints": null
+                    },
+                    "genres": [
+                        "Puzzle",
+                        "Platformer",
+                        "Music"
+                    ],
+                    "objectID": "7100073421",
+                    "releaseDateDisplay": null,
+                    "contentRatingCode": "E",
+                    "topLevelCategoryCode": "GAMES",
+                    "topLevelFilters": [],
+                    "franchises": [],
+                    "topLevelCategory": "Games",
+                    "updatedAt": "2024-02-13T21:41:08.000Z",
+                    "dlcType": null,
+                    "priceRange": "$5 - $9.99",
+                    "categoryIds": [
+                        "ODUx",
+                        "ODU0"
+                    ],
+                    "nsuid": "70010000073421",
+                    "platinumPoints": null,
+                    "urlKey": "krimson-switch",
+                    "softwarePublisher": "PM Studios",
+                    "sku": "7100073421",
+                    "releaseDate": "2024-03-21T00:00:00.000Z",
+                    "url": "/us/store/products/krimson-switch/",
+                    "contentRating": {
+                        "code": "e",
+                        "isCompilation": false,
+                        "requiresAgeGate": false,
+                        "system": "ESRB"
+                    },
+                    "exclusive": false,
+                    "nsoFeatures": [
+                        "Save Data Cloud"
+                    ],
+                    "featuredProduct": false,
+                    "playModes": [
+                        "TV mode",
+                        "Tabletop mode",
+                        "Handheld mode"
+                    ],
+                    "title": "Krimson",
+                    "esrbDescriptors": [
+                        "Mild Fantasy Violence",
+                        "Mild Language"
+                    ],
+                    "description": null,
+                    "isSalableQty": true,
+                    "availability": [
+                        "Coming soon"
+                    ],
+                    "hasDlc": false,
+                    "platform": "Nintendo Switch",
+                    "corePlatforms": [
+                        "Nintendo Switch"
+                    ],
+                    "productImage": "ncom/software/switch/70010000073421/ec139dc7d1c6fc9105775d91c1f4e5a464f3ab655abb15ec833929758cf65676",
+                    "platformCode": "NINTENDO_SWITCH",
+                    "esrbRating": "E",
+                    "contentDescriptors": [
+                        {
+                            "label": "Mild Fantasy Violence",
+                            "type": "CONTENT_DESCRIPTOR"
+                        },
+                        {
+                            "label": "Mild Language",
+                            "type": "CONTENT_DESCRIPTOR"
+                        }
+                    ],
+                    "editions": [
+                        "Digital"
+                    ],
+                    "price": {
+                        "regPrice": 9.99,
+                        "finalPrice": 9.99,
+                        "salePrice": null
+                    },
+                    "playerCount": "Single Player",
+                    "_distinctSeqID": 0,
+                    "demoNsuid": null
+                },
+                {
+                    "releaseDateDisplay": null,
+                    "urlKey": "master-maker-3d-ultimate-switch",
+                    "corePlatforms": [
+                        "Nintendo Switch"
+                    ],
+                    "franchises": [],
+                    "esrbRating": "E",
+                    "platformCode": "NINTENDO_SWITCH",
+                    "topLevelFilters": [],
+                    "_distinctSeqID": 0,
+                    "sku": "7100069294",
+                    "topLevelCategoryCode": "GAMES",
+                    "contentRatingCode": "E",
+                    "playerCount": "Single Player",
+                    "objectID": "7100069294",
+                    "nsoFeatures": [
+                        "Save Data Cloud"
+                    ],
+                    "categoryIds": [
+                        "ODUx",
+                        "ODU0"
+                    ],
+                    "platinumPoints": null,
+                    "nsuid": "70010000069294",
+                    "playModes": [
+                        "TV mode",
+                        "Tabletop mode",
+                        "Handheld mode"
+                    ],
+                    "esrbDescriptors": [
+                        "Mild Fantasy Violence"
+                    ],
+                    "productImage": "ncom/software/switch/70010000069294/6597f6a14c5011cb3843dc0c8488ad758d3767c729a7292a7fbbd882b558d57b",
+                    "softwareDeveloper": "eastasiasoft, Derik D.F",
+                    "isSalableQty": true,
+                    "collectionPriceRange": "$0 - $9.99",
+                    "contentRating": {
+                        "code": "e",
+                        "isCompilation": false,
+                        "requiresAgeGate": false,
+                        "system": "ESRB"
+                    },
+                    "releaseDate": "2024-03-20T00:00:00.000Z",
+                    "exclusive": false,
+                    "featuredProduct": false,
+                    "priceRange": "$0 - $4.99",
+                    "eshopDetails": {
+                        "discountPriceEnd": null,
+                        "goldPoints": null,
+                        "baseGoldPoints": null
+                    },
+                    "hasDlc": false,
+                    "availability": [
+                        "Coming soon"
+                    ],
+                    "updatedAt": "2024-02-26T19:45:36.000Z",
+                    "price": {
+                        "regPrice": 4.99,
+                        "finalPrice": 4.99,
+                        "salePrice": null
+                    },
+                    "softwarePublisher": "eastasiasoft",
+                    "contentDescriptors": [
+                        {
+                            "label": "Mild Fantasy Violence",
+                            "type": "CONTENT_DESCRIPTOR"
+                        }
+                    ],
+                    "demoNsuid": null,
+                    "topLevelCategory": "Games",
+                    "description": null,
+                    "title": "Master Maker 3D Ultimate",
+                    "platform": "Nintendo Switch",
+                    "url": "/us/store/products/master-maker-3d-ultimate-switch/",
+                    "editions": [
+                        "Digital"
+                    ],
+                    "genres": [
+                        "Platformer",
+                        "Action",
+                        "Adventure"
+                    ],
+                    "dlcType": null
+                },
+                {
+                    "esrbDescriptors": [
+                        "Language"
+                    ],
+                    "productImage": "ncom/software/switch/70010000068149/db48113d01b649b46b184ff3477ad09e900d9481db583e99cd3111bb29acb639",
+                    "objectID": "7100068149",
+                    "updatedAt": "2024-02-21T19:15:52.000Z",
+                    "contentDescriptors": [
+                        {
+                            "label": "Language",
+                            "type": "CONTENT_DESCRIPTOR"
+                        }
+                    ],
+                    "releaseDateDisplay": null,
+                    "dlcType": null,
+                    "topLevelCategory": "Games",
+                    "urlKey": "power-of-ten-switch",
+                    "platformCode": "NINTENDO_SWITCH",
+                    "franchises": [],
+                    "topLevelFilters": [],
+                    "priceRange": "$10 - $19.99",
+                    "nsuid": "70010000068149",
+                    "platform": "Nintendo Switch",
+                    "eshopDetails": {
+                        "discountPriceEnd": null,
+                        "goldPoints": null,
+                        "baseGoldPoints": null
+                    },
+                    "availability": [
+                        "Coming soon"
+                    ],
+                    "playerCount": "Single Player",
+                    "exclusive": false,
+                    "title": "Power of Ten",
+                    "playModes": [
+                        "TV mode",
+                        "Tabletop mode",
+                        "Handheld mode"
+                    ],
+                    "price": {
+                        "finalPrice": 11.99,
+                        "regPrice": 11.99,
+                        "salePrice": null
+                    },
+                    "contentRatingCode": "T",
+                    "description": null,
+                    "esrbRating": "T",
+                    "nsoFeatures": [
+                        "Save Data Cloud"
+                    ],
+                    "hasDlc": false,
+                    "softwareDeveloper": "Pew Times Three, LLC",
+                    "url": "/us/store/products/power-of-ten-switch/",
+                    "platinumPoints": null,
+                    "isSalableQty": true,
+                    "featuredProduct": false,
+                    "softwarePublisher": "Pew Times Three",
+                    "_distinctSeqID": 0,
+                    "demoNsuid": null,
+                    "genres": [
+                        "Arcade",
+                        "Action",
+                        "Other"
+                    ],
+                    "corePlatforms": [
+                        "Nintendo Switch"
+                    ],
+                    "categoryIds": [
+                        "ODUx",
+                        "ODU0"
+                    ],
+                    "editions": [
+                        "Digital"
+                    ],
+                    "collectionPriceRange": "$10 - $19.99",
+                    "contentRating": {
+                        "code": "t",
+                        "isCompilation": false,
+                        "requiresAgeGate": false,
+                        "system": "ESRB"
+                    },
+                    "sku": "7100068149",
+                    "topLevelCategoryCode": "GAMES",
+                    "releaseDate": "2024-03-20T00:00:00.000Z"
+                },
+                {
+                    "contentDescriptors": [
+                        {
+                            "label": "Users Interact",
+                            "type": "INTERACTIVE_ELEMENT"
+                        },
+                        {
+                            "label": "In-Game Purchases (Includes Random Items)",
+                            "type": "INTERACTIVE_ELEMENT"
+                        }
+                    ],
+                    "title": "MLB® The Show™ 24",
+                    "sku": "7100069925",
+                    "softwareDeveloper": "San Diego Studio",
+                    "objectID": "7100069925",
+                    "genres": [
+                        "Sports",
+                        "Simulation"
+                    ],
+                    "softwarePublisher": "MLBAM",
+                    "nsoFeatures": [
+                        "Online Play",
+                        "Save Data Cloud"
+                    ],
+                    "urlKey": "mlb-the-show-24-switch",
+                    "dlcType": null,
+                    "description": null,
+                    "esrbDescriptors": [
+                        "Users Interact",
+                        "In-Game Purchases (Includes Random Items)"
+                    ],
+                    "topLevelCategoryCode": "GAMES",
+                    "contentRating": {
+                        "code": "e",
+                        "isCompilation": false,
+                        "requiresAgeGate": false,
+                        "system": "ESRB"
+                    },
+                    "esrbRating": "E",
+                    "editions": [
+                        "Digital"
+                    ],
+                    "availability": [
+                        "Pre-order",
+                        "Coming soon"
+                    ],
+                    "isSalableQty": true,
+                    "topLevelFilters": [],
+                    "contentRatingCode": "E",
+                    "corePlatforms": [
+                        "Nintendo Switch"
+                    ],
+                    "categoryIds": [
+                        "ODUx",
+                        "ODU0"
+                    ],
+                    "releaseDate": "2024-03-19T00:00:00.000Z",
+                    "platform": "Nintendo Switch",
+                    "eshopDetails": {
+                        "discountPriceEnd": null,
+                        "goldPoints": 300,
+                        "baseGoldPoints": 300
+                    },
+                    "releaseDateDisplay": null,
+                    "productImage": "ncom/software/switch/70010000069925/b77a4d7290011650192b4336b7d2cc5bbfbd1c9222dc9f155c444b630affd2a2",
+                    "collectionPriceRange": "$40 - $59.99",
+                    "playModes": [
+                        "TV mode",
+                        "Tabletop mode",
+                        "Handheld mode"
+                    ],
+                    "featuredProduct": false,
+                    "nsuid": "70010000069925",
+                    "price": {
+                        "regPrice": 59.99,
+                        "finalPrice": 59.99,
+                        "salePrice": null
+                    },
+                    "updatedAt": "2024-01-30T18:14:11.000Z",
+                    "_distinctSeqID": 0,
+                    "url": "/us/store/products/mlb-the-show-24-switch/",
+                    "demoNsuid": null,
+                    "topLevelCategory": "Games",
+                    "hasDlc": false,
+                    "franchises": [],
+                    "exclusive": false,
+                    "playerCount": "4+",
+                    "platformCode": "NINTENDO_SWITCH",
+                    "priceRange": "$40+",
+                    "platinumPoints": null
+                },
+                {
+                    "topLevelCategoryCode": "GAMES",
+                    "url": "/us/store/products/truck-and-forklift-logistic-simulator-switch/",
+                    "playModes": [
+                        "TV mode",
+                        "Tabletop mode",
+                        "Handheld mode"
+                    ],
+                    "sku": "7100077355",
+                    "playerCount": "Single Player",
+                    "priceRange": "$10 - $19.99",
+                    "softwareDeveloper": null,
+                    "contentRating": {
+                        "code": "e",
+                        "isCompilation": false,
+                        "requiresAgeGate": false,
+                        "system": "ESRB"
+                    },
+                    "eshopDetails": {
+                        "discountPriceEnd": null,
+                        "goldPoints": null,
+                        "baseGoldPoints": null
+                    },
+                    "contentRatingCode": "E",
+                    "collectionPriceRange": "$10 - $19.99",
+                    "description": null,
+                    "topLevelFilters": [],
+                    "productImage": "ncom/software/switch/70010000077355/e3504fe2eea9657f27f33358f32f3cb44fa5c3d35e4144ce2d6c50b8139cc035",
+                    "esrbDescriptors": [],
+                    "contentDescriptors": [],
+                    "nsoFeatures": [
+                        "Save Data Cloud"
+                    ],
+                    "categoryIds": [
+                        "ODUx",
+                        "ODU0"
+                    ],
+                    "_distinctSeqID": 0,
+                    "franchises": [],
+                    "isSalableQty": true,
+                    "esrbRating": "E",
+                    "editions": [
+                        "Digital"
+                    ],
+                    "releaseDate": "2024-03-16T00:00:00.000Z",
+                    "urlKey": "truck-and-forklift-logistic-simulator-switch",
+                    "platform": "Nintendo Switch",
+                    "platformCode": "NINTENDO_SWITCH",
+                    "topLevelCategory": "Games",
+                    "dlcType": null,
+                    "availability": [
+                        "Coming soon"
+                    ],
+                    "objectID": "7100077355",
+                    "updatedAt": "2024-02-26T18:52:16.000Z",
+                    "corePlatforms": [
+                        "Nintendo Switch"
+                    ],
+                    "featuredProduct": false,
+                    "hasDlc": false,
+                    "nsuid": "70010000077355",
+                    "genres": [
+                        "Simulation",
+                        "Racing",
+                        "Adventure",
+                        "Training"
+                    ],
+                    "price": {
+                        "finalPrice": 14.99,
+                        "regPrice": 14.99,
+                        "salePrice": null
+                    },
+                    "releaseDateDisplay": null,
+                    "platinumPoints": null,
+                    "softwarePublisher": "Halva Studio",
+                    "title": "Truck and Forklift Logistic Simulator",
+                    "demoNsuid": null,
+                    "exclusive": false
+                },
+                {
+                    "dlcType": null,
+                    "hasDlc": false,
+                    "topLevelFilters": [],
+                    "nsoFeatures": [],
+                    "objectID": "7700020783",
+                    "price": {
+                        "finalPrice": 29.99,
+                        "regPrice": 29.99,
+                        "salePrice": null
+                    },
+                    "esrbRating": "E10",
+                    "playerCount": null,
+                    "productImage": "ncom/software/switch/70070000020783/1309f6aaa970083cd70423637c24c59f421164ae403290ef3c702c87e8a66f98",
+                    "corePlatforms": [
+                        "Nintendo Switch"
+                    ],
+                    "contentRating": {
+                        "code": "e10",
+                        "isCompilation": false,
+                        "requiresAgeGate": false,
+                        "system": "ESRB"
+                    },
+                    "title": "Rainbow Moon + Rainbow Skies Strategy RPG Bundle",
+                    "availability": [
+                        "Coming soon"
+                    ],
+                    "eshopDetails": {
+                        "discountPriceEnd": null,
+                        "goldPoints": null,
+                        "baseGoldPoints": null
+                    },
+                    "nsuid": "70070000020783",
+                    "esrbDescriptors": [
+                        "Alcohol Reference",
+                        "Suggestive Themes",
+                        "Language",
+                        "Fantasy Violence"
+                    ],
+                    "categoryIds": [
+                        "ODUx",
+                        "ODU0"
+                    ],
+                    "description": null,
+                    "playModes": null,
+                    "franchises": [],
+                    "featuredProduct": false,
+                    "updatedAt": "2024-02-15T08:06:55.000Z",
+                    "isSalableQty": true,
+                    "platformCode": "NINTENDO_SWITCH",
+                    "platinumPoints": null,
+                    "genres": [],
+                    "editions": [
+                        "Digital"
+                    ],
+                    "releaseDate": "2024-03-15T00:00:00.000Z",
+                    "releaseDateDisplay": null,
+                    "softwarePublisher": "eastasiasoft",
+                    "contentRatingCode": "E10",
+                    "topLevelCategory": "Games",
+                    "demoNsuid": null,
+                    "url": "/us/store/products/rainbow-moon-plus-rainbow-skies-strategy-rpg-bundle-switch/",
+                    "collectionPriceRange": "$20 - $39.99",
+                    "sku": "7700020783",
+                    "urlKey": "rainbow-moon-plus-rainbow-skies-strategy-rpg-bundle-switch",
+                    "topLevelCategoryCode": "GAMES",
+                    "platform": "Nintendo Switch",
+                    "priceRange": "$20 - $39.99",
+                    "exclusive": false,
+                    "_distinctSeqID": 0,
+                    "softwareDeveloper": null,
+                    "contentDescriptors": [
+                        {
+                            "label": "Alcohol Reference",
+                            "type": "CONTENT_DESCRIPTOR"
+                        },
+                        {
+                            "label": "Suggestive Themes",
+                            "type": "CONTENT_DESCRIPTOR"
+                        },
+                        {
+                            "label": "Language",
+                            "type": "CONTENT_DESCRIPTOR"
+                        },
+                        {
+                            "label": "Fantasy Violence",
+                            "type": "CONTENT_DESCRIPTOR"
+                        }
+                    ]
+                },
+                {
+                    "softwareDeveloper": "Loneminded",
+                    "eshopDetails": {
+                        "discountPriceEnd": null,
+                        "goldPoints": 27,
+                        "baseGoldPoints": 27
+                    },
+                    "demoNsuid": null,
+                    "platform": "Nintendo Switch",
+                    "priceRange": "$5 - $9.99",
+                    "url": "/us/store/products/cozy-hamlets-switch/",
+                    "contentRatingCode": "E",
+                    "hasDlc": false,
+                    "nsoFeatures": [
+                        "Save Data Cloud"
+                    ],
+                    "categoryIds": [
+                        "ODUx",
+                        "ODU0"
+                    ],
+                    "editions": [
+                        "Digital"
+                    ],
+                    "playModes": [
+                        "TV mode",
+                        "Tabletop mode",
+                        "Handheld mode"
+                    ],
+                    "topLevelFilters": [],
+                    "releaseDate": "2024-03-15T00:00:00.000Z",
+                    "corePlatforms": [
+                        "Nintendo Switch"
+                    ],
+                    "availability": [
+                        "Pre-order",
+                        "Coming soon"
+                    ],
+                    "exclusive": false,
+                    "platinumPoints": null,
+                    "releaseDateDisplay": null,
+                    "franchises": [],
+                    "isSalableQty": true,
+                    "nsuid": "70010000078847",
+                    "description": null,
+                    "urlKey": "cozy-hamlets-switch",
+                    "contentDescriptors": [],
+                    "platformCode": "NINTENDO_SWITCH",
+                    "softwarePublisher": "Loneminded",
+                    "esrbDescriptors": [],
+                    "playerCount": "Single Player",
+                    "esrbRating": "E",
+                    "title": "Cozy Hamlets",
+                    "topLevelCategory": "Games",
+                    "topLevelCategoryCode": "GAMES",
+                    "collectionPriceRange": "$0 - $9.99",
+                    "updatedAt": "2024-03-06T17:07:00.000Z",
+                    "genres": [
+                        "Strategy",
+                        "Adventure",
+                        "Arcade",
+                        "Simulation"
+                    ],
+                    "contentRating": {
+                        "code": "e",
+                        "isCompilation": false,
+                        "requiresAgeGate": false,
+                        "system": "ESRB"
+                    },
+                    "sku": "7100078847",
+                    "objectID": "7100078847",
+                    "dlcType": null,
+                    "productImage": "ncom/software/switch/70010000078847/0fd1cca6103adbc5371cb9fbfb324eda032bd65e09d21494ad2e896965a9d99d",
+                    "price": {
+                        "regPrice": 5.29,
+                        "finalPrice": 5.29,
+                        "salePrice": null
+                    },
+                    "_distinctSeqID": 0,
+                    "featuredProduct": false
+                },
+                {
+                    "isSalableQty": true,
+                    "platform": "Nintendo Switch",
+                    "priceRange": "$10 - $19.99",
+                    "nsoFeatures": [
+                        "Save Data Cloud"
+                    ],
+                    "availability": [
+                        "Coming soon"
+                    ],
+                    "topLevelFilters": [],
+                    "title": "Baron of Blood",
+                    "topLevelCategory": "Games",
+                    "url": "/us/store/products/baron-of-blood-switch/",
+                    "genres": [
+                        "Platformer",
+                        "Adventure",
+                        "Action",
+                        "Multiplayer"
+                    ],
+                    "playerCount": "2+",
+                    "topLevelCategoryCode": "GAMES",
+                    "softwareDeveloper": null,
+                    "platformCode": "NINTENDO_SWITCH",
+                    "eshopDetails": {
+                        "discountPriceEnd": null,
+                        "goldPoints": null,
+                        "baseGoldPoints": null
+                    },
+                    "urlKey": "baron-of-blood-switch",
+                    "categoryIds": [
+                        "ODUx",
+                        "ODU0"
+                    ],
+                    "corePlatforms": [
+                        "Nintendo Switch"
+                    ],
+                    "productImage": "ncom/software/switch/70010000078692/640c0fad7a88d134577743f694ffa1d01918cc4330b165d5e2a3aaaadc025a8c",
+                    "price": {
+                        "regPrice": 12.99,
+                        "finalPrice": 12.99,
+                        "salePrice": null
+                    },
+                    "hasDlc": false,
+                    "esrbDescriptors": [
+                        "Fantasy Violence",
+                        "Mild Blood"
+                    ],
+                    "objectID": "7100078692",
+                    "platinumPoints": null,
+                    "collectionPriceRange": "$10 - $19.99",
+                    "releaseDate": "2024-03-15T00:00:00.000Z",
+                    "description": null,
+                    "sku": "7100078692",
+                    "releaseDateDisplay": null,
+                    "updatedAt": "2024-02-29T17:14:12.000Z",
+                    "editions": [
+                        "Digital"
+                    ],
+                    "softwarePublisher": "Castle Village Games",
+                    "featuredProduct": false,
+                    "_distinctSeqID": 0,
+                    "esrbRating": "E10",
+                    "exclusive": false,
+                    "contentRating": {
+                        "code": "e10",
+                        "isCompilation": false,
+                        "requiresAgeGate": false,
+                        "system": "ESRB"
+                    },
+                    "contentRatingCode": "E10",
+                    "franchises": [],
+                    "dlcType": null,
+                    "nsuid": "70010000078692",
+                    "contentDescriptors": [
+                        {
+                            "label": "Fantasy Violence",
+                            "type": "CONTENT_DESCRIPTOR"
+                        },
+                        {
+                            "label": "Mild Blood",
+                            "type": "CONTENT_DESCRIPTOR"
+                        }
+                    ],
+                    "demoNsuid": null,
+                    "playModes": [
+                        "TV mode",
+                        "Tabletop mode",
+                        "Handheld mode"
+                    ]
+                },
+                {
+                    "genres": [
+                        "Action",
+                        "Platformer",
+                        "Arcade"
+                    ],
+                    "title": "Orion Haste",
+                    "isSalableQty": true,
+                    "priceRange": "$5 - $9.99",
+                    "categoryIds": [
+                        "ODUx",
+                        "ODU0"
+                    ],
+                    "exclusive": false,
+                    "url": "/us/store/products/orion-haste-switch/",
+                    "hasDlc": false,
+                    "demoNsuid": null,
+                    "featuredProduct": false,
+                    "franchises": [],
+                    "platinumPoints": null,
+                    "softwareDeveloper": null,
+                    "updatedAt": "2024-03-04T18:44:22.000Z",
+                    "contentRatingCode": "E10",
+                    "topLevelCategory": "Games",
+                    "platform": "Nintendo Switch",
+                    "description": null,
+                    "urlKey": "orion-haste-switch",
+                    "playerCount": "Single Player",
+                    "platformCode": "NINTENDO_SWITCH",
+                    "contentRating": {
+                        "code": "e10",
+                        "isCompilation": false,
+                        "requiresAgeGate": false,
+                        "system": "ESRB"
+                    },
+                    "eshopDetails": {
+                        "discountPriceEnd": null,
+                        "goldPoints": null,
+                        "baseGoldPoints": null
+                    },
+                    "esrbDescriptors": [
+                        "Fantasy Violence",
+                        "Mild Blood"
+                    ],
+                    "dlcType": null,
+                    "nsuid": "70010000076213",
+                    "collectionPriceRange": "$0 - $9.99",
+                    "nsoFeatures": [
+                        "Save Data Cloud"
+                    ],
+                    "price": {
+                        "regPrice": 5.99,
+                        "finalPrice": 5.99,
+                        "salePrice": null
+                    },
+                    "topLevelCategoryCode": "GAMES",
+                    "editions": [
+                        "Digital"
+                    ],
+                    "contentDescriptors": [
+                        {
+                            "label": "Fantasy Violence",
+                            "type": "CONTENT_DESCRIPTOR"
+                        },
+                        {
+                            "label": "Mild Blood",
+                            "type": "CONTENT_DESCRIPTOR"
+                        }
+                    ],
+                    "availability": [
+                        "Coming soon"
+                    ],
+                    "objectID": "7100076213",
+                    "releaseDate": "2024-03-15T00:00:00.000Z",
+                    "corePlatforms": [
+                        "Nintendo Switch"
+                    ],
+                    "softwarePublisher": "Ratalaika Games",
+                    "releaseDateDisplay": null,
+                    "_distinctSeqID": 0,
+                    "playModes": [
+                        "TV mode",
+                        "Tabletop mode",
+                        "Handheld mode"
+                    ],
+                    "sku": "7100076213",
+                    "topLevelFilters": [],
+                    "esrbRating": "E10",
+                    "productImage": "ncom/software/switch/70010000076213/d1b706d5dd07231819d9972dad6ad771014ba865db15878baaab17283d65e6e4"
+                },
+                {
+                    "platformCode": "NINTENDO_SWITCH",
+                    "hasDlc": false,
+                    "editions": [
+                        "Digital"
+                    ],
+                    "priceRange": "$10 - $19.99",
+                    "productImage": "ncom/software/switch/70010000067851/b2d507dba1d7dd4ec2105484908167e68dd441051e753835b38aadb9e8e2cc3a",
+                    "releaseDateDisplay": null,
+                    "releaseDate": "2024-03-15T00:00:00.000Z",
+                    "topLevelCategoryCode": "GAMES",
+                    "nsoFeatures": [
+                        "Save Data Cloud"
+                    ],
+                    "exclusive": false,
+                    "platinumPoints": null,
+                    "categoryIds": [
+                        "ODUx",
+                        "ODU0"
+                    ],
+                    "contentDescriptors": [
+                        {
+                            "label": "Fantasy Violence",
+                            "type": "CONTENT_DESCRIPTOR"
+                        },
+                        {
+                            "label": "Mild Language",
+                            "type": "CONTENT_DESCRIPTOR"
+                        },
+                        {
+                            "label": "Alcohol Reference",
+                            "type": "CONTENT_DESCRIPTOR"
+                        }
+                    ],
+                    "collectionPriceRange": "$10 - $19.99",
+                    "urlKey": "rainbow-moon-switch",
+                    "updatedAt": "2024-02-02T21:22:11.000Z",
+                    "featuredProduct": false,
+                    "softwareDeveloper": null,
+                    "_distinctSeqID": 0,
+                    "eshopDetails": {
+                        "discountPriceEnd": null,
+                        "goldPoints": null,
+                        "baseGoldPoints": null
+                    },
+                    "topLevelCategory": "Games",
+                    "platform": "Nintendo Switch",
+                    "contentRatingCode": "E10",
+                    "topLevelFilters": [],
+                    "price": {
+                        "finalPrice": 14.99,
+                        "regPrice": 14.99,
+                        "salePrice": null
+                    },
+                    "url": "/us/store/products/rainbow-moon-switch/",
+                    "demoNsuid": null,
+                    "nsuid": "70010000067851",
+                    "esrbDescriptors": [
+                        "Fantasy Violence",
+                        "Mild Language",
+                        "Alcohol Reference"
+                    ],
+                    "objectID": "7100067851",
+                    "description": null,
+                    "corePlatforms": [
+                        "Nintendo Switch"
+                    ],
+                    "playerCount": "Single Player",
+                    "availability": [
+                        "Coming soon"
+                    ],
+                    "sku": "7100067851",
+                    "isSalableQty": true,
+                    "title": "Rainbow Moon",
+                    "genres": [
+                        "Role-Playing",
+                        "Strategy",
+                        "Adventure"
+                    ],
+                    "contentRating": {
+                        "code": "e10",
+                        "isCompilation": false,
+                        "requiresAgeGate": false,
+                        "system": "ESRB"
+                    },
+                    "dlcType": null,
+                    "playModes": [
+                        "TV mode",
+                        "Tabletop mode",
+                        "Handheld mode"
+                    ],
+                    "esrbRating": "E10",
+                    "softwarePublisher": "eastasiasoft",
+                    "franchises": []
+                },
+                {
+                    "topLevelCategory": "Games",
+                    "isSalableQty": true,
+                    "url": "/us/store/products/pj-masks-power-heroes-mighty-alliance-switch/",
+                    "sku": "7100062008",
+                    "genres": [
+                        "Action",
+                        "Adventure",
+                        "Platformer"
+                    ],
+                    "softwarePublisher": "Outright Games",
+                    "topLevelFilters": [],
+                    "price": {
+                        "finalPrice": 39.99,
+                        "regPrice": 39.99,
+                        "salePrice": null
+                    },
+                    "title": "PJ Masks Power Heroes: Mighty Alliance",
+                    "editions": [
+                        "Digital"
+                    ],
+                    "availability": [
+                        "Pre-order",
+                        "Coming soon"
+                    ],
+                    "dlcType": null,
+                    "esrbDescriptors": [
+                        "Mild Fantasy Violence"
+                    ],
+                    "corePlatforms": [
+                        "Nintendo Switch"
+                    ],
+                    "playModes": [
+                        "TV mode",
+                        "Tabletop mode",
+                        "Handheld mode"
+                    ],
+                    "productImage": "ncom/software/switch/70010000062008/5b9ea41afb32a9fa8fe715dd29cf57587bc0addf37f9e12dac38bae12fdb470e",
+                    "hasDlc": false,
+                    "contentDescriptors": [
+                        {
+                            "label": "Mild Fantasy Violence",
+                            "type": "CONTENT_DESCRIPTOR"
+                        }
+                    ],
+                    "objectID": "7100062008",
+                    "releaseDate": "2024-03-15T00:00:00.000Z",
+                    "contentRating": {
+                        "code": "e",
+                        "isCompilation": false,
+                        "requiresAgeGate": false,
+                        "system": "ESRB"
+                    },
+                    "demoNsuid": null,
+                    "nsuid": "70010000062008",
+                    "releaseDateDisplay": null,
+                    "nsoFeatures": [
+                        "Save Data Cloud"
+                    ],
+                    "description": null,
+                    "platform": "Nintendo Switch",
+                    "featuredProduct": false,
+                    "esrbRating": "E",
+                    "_distinctSeqID": 0,
+                    "contentRatingCode": "E",
+                    "priceRange": "$20 - $39.99",
+                    "topLevelCategoryCode": "GAMES",
+                    "exclusive": false,
+                    "softwareDeveloper": "Petoons Studio Ltd.",
+                    "collectionPriceRange": "$20 - $39.99",
+                    "platinumPoints": null,
+                    "playerCount": "Single Player",
+                    "categoryIds": [
+                        "ODUx",
+                        "ODU0"
+                    ],
+                    "platformCode": "NINTENDO_SWITCH",
+                    "updatedAt": "2024-02-09T22:19:18.000Z",
+                    "franchises": [],
+                    "eshopDetails": {
+                        "discountPriceEnd": null,
+                        "goldPoints": 200,
+                        "baseGoldPoints": 200
+                    },
+                    "urlKey": "pj-masks-power-heroes-mighty-alliance-switch"
+                },
+                {
+                    "topLevelCategory": "Games",
+                    "platformCode": "NINTENDO_SWITCH",
+                    "_distinctSeqID": 0,
+                    "dlcType": null,
+                    "demoNsuid": null,
+                    "exclusive": false,
+                    "productImage": "ncom/software/switch/70010000056686/6043972be6d5d0342181c34706add8343ddd78961d46e8a5453146a50390240f",
+                    "sku": "7100056686",
+                    "playerCount": "Single Player",
+                    "franchises": [],
+                    "editions": [
+                        "Digital"
+                    ],
+                    "softwareDeveloper": "Warhorse Studios",
+                    "esrbRating": "M",
+                    "softwarePublisher": "PLAION",
+                    "title": "Kingdom Come Deliverance: Royal Edition",
+                    "nsoFeatures": [
+                        "Save Data Cloud"
+                    ],
+                    "platinumPoints": null,
+                    "releaseDate": "2024-03-15T00:00:00.000Z",
+                    "contentDescriptors": [
+                        {
+                            "label": "Blood and Gore",
+                            "type": "CONTENT_DESCRIPTOR"
+                        },
+                        {
+                            "label": "Intense Violence",
+                            "type": "CONTENT_DESCRIPTOR"
+                        },
+                        {
+                            "label": "Nudity",
+                            "type": "CONTENT_DESCRIPTOR"
+                        },
+                        {
+                            "label": "Strong Language",
+                            "type": "CONTENT_DESCRIPTOR"
+                        },
+                        {
+                            "label": "Strong Sexual Content",
+                            "type": "CONTENT_DESCRIPTOR"
+                        },
+                        {
+                            "label": "Use of Alcohol",
+                            "type": "CONTENT_DESCRIPTOR"
+                        }
+                    ],
+                    "url": "/us/store/products/kingdom-come-deliverance-royal-edition-switch/",
+                    "topLevelCategoryCode": "GAMES",
+                    "collectionPriceRange": "$40 - $59.99",
+                    "description": null,
+                    "price": {
+                        "regPrice": 49.99,
+                        "finalPrice": 49.99,
+                        "salePrice": null
+                    },
+                    "corePlatforms": [
+                        "Nintendo Switch"
+                    ],
+                    "isSalableQty": true,
+                    "hasDlc": false,
+                    "contentRating": {
+                        "code": "m",
+                        "isCompilation": false,
+                        "requiresAgeGate": true,
+                        "system": "ESRB"
+                    },
+                    "genres": [
+                        "Role-Playing",
+                        "Action",
+                        "Adventure",
+                        "Other"
+                    ],
+                    "priceRange": "$40+",
+                    "releaseDateDisplay": null,
+                    "nsuid": "70010000056686",
+                    "contentRatingCode": "M",
+                    "playModes": [
+                        "TV mode",
+                        "Tabletop mode",
+                        "Handheld mode"
+                    ],
+                    "objectID": "7100056686",
+                    "eshopDetails": {
+                        "discountPriceEnd": null,
+                        "goldPoints": 250,
+                        "baseGoldPoints": 250
+                    },
+                    "esrbDescriptors": [
+                        "Blood and Gore",
+                        "Intense Violence",
+                        "Nudity",
+                        "Strong Language",
+                        "Strong Sexual Content",
+                        "Use of Alcohol"
+                    ],
+                    "categoryIds": [
+                        "ODUx",
+                        "ODU0"
+                    ],
+                    "featuredProduct": false,
+                    "topLevelFilters": [],
+                    "updatedAt": "2024-02-21T14:14:13.000Z",
+                    "urlKey": "kingdom-come-deliverance-royal-edition-switch",
+                    "availability": [
+                        "Pre-order",
+                        "Coming soon"
+                    ],
+                    "platform": "Nintendo Switch"
+                },
+                {
+                    "playModes": [
+                        "TV mode",
+                        "Tabletop mode",
+                        "Handheld mode"
+                    ],
+                    "genres": [
+                        "Action",
+                        "Arcade"
+                    ],
+                    "contentDescriptors": [
+                        {
+                            "label": "Blood",
+                            "type": "CONTENT_DESCRIPTOR"
+                        },
+                        {
+                            "label": "Violence",
+                            "type": "CONTENT_DESCRIPTOR"
+                        }
+                    ],
+                    "platinumPoints": null,
+                    "description": null,
+                    "productImage": "ncom/software/switch/70010000077024/4305bb3314da65118c3df3c74f9dae32c1b7143358aa7e781a3f8c2427b89ab8",
+                    "hasDlc": false,
+                    "isSalableQty": true,
+                    "categoryIds": [
+                        "ODUx",
+                        "ODU0"
+                    ],
+                    "esrbDescriptors": [
+                        "Blood",
+                        "Violence"
+                    ],
+                    "price": {
+                        "regPrice": 7.99,
+                        "finalPrice": 7.99,
+                        "salePrice": null
+                    },
+                    "priceRange": "$5 - $9.99",
+                    "topLevelFilters": [],
+                    "platform": "Nintendo Switch",
+                    "urlKey": "anime-girls-sun-of-a-beach-switch",
+                    "nsoFeatures": [
+                        "Save Data Cloud"
+                    ],
+                    "_distinctSeqID": 0,
+                    "sku": "7100077024",
+                    "availability": [
+                        "Coming soon"
+                    ],
+                    "franchises": [],
+                    "exclusive": false,
+                    "title": "Anime Girls: Sun of a Beach",
+                    "topLevelCategoryCode": "GAMES",
+                    "corePlatforms": [
+                        "Nintendo Switch"
+                    ],
+                    "url": "/us/store/products/anime-girls-sun-of-a-beach-switch/",
+                    "eshopDetails": {
+                        "discountPriceEnd": null,
+                        "goldPoints": null,
+                        "baseGoldPoints": null
+                    },
+                    "updatedAt": "2024-02-27T19:34:34.000Z",
+                    "editions": [
+                        "Digital"
+                    ],
+                    "esrbRating": "T",
+                    "platformCode": "NINTENDO_SWITCH",
+                    "playerCount": "Single Player",
+                    "nsuid": "70010000077024",
+                    "topLevelCategory": "Games",
+                    "contentRatingCode": "T",
+                    "demoNsuid": null,
+                    "releaseDateDisplay": null,
+                    "softwareDeveloper": null,
+                    "objectID": "7100077024",
+                    "featuredProduct": false,
+                    "releaseDate": "2024-03-14T00:00:00.000Z",
+                    "contentRating": {
+                        "code": "t",
+                        "isCompilation": false,
+                        "requiresAgeGate": false,
+                        "system": "ESRB"
+                    },
+                    "dlcType": null,
+                    "collectionPriceRange": "$0 - $9.99",
+                    "softwarePublisher": "Halva Studio"
+                },
+                {
+                    "availability": [
+                        "Pre-order",
+                        "Coming soon"
+                    ],
+                    "price": {
+                        "regPrice": 11.47,
+                        "finalPrice": 9.17,
+                        "salePrice": 9.17
+                    },
+                    "title": "Lazriel: The Demon's Fall",
+                    "corePlatforms": [
+                        "Nintendo Switch"
+                    ],
+                    "playerCount": "Single Player",
+                    "topLevelCategoryCode": "GAMES",
+                    "esrbDescriptors": [
+                        "Mild Fantasy Violence"
+                    ],
+                    "releaseDate": "2024-03-14T00:00:00.000Z",
+                    "nsoFeatures": [
+                        "Save Data Cloud"
+                    ],
+                    "platformCode": "NINTENDO_SWITCH",
+                    "contentRating": {
+                        "code": "e",
+                        "isCompilation": false,
+                        "requiresAgeGate": false,
+                        "system": "ESRB"
+                    },
+                    "topLevelCategory": "Games",
+                    "playModes": [
+                        "TV mode",
+                        "Tabletop mode",
+                        "Handheld mode"
+                    ],
+                    "_distinctSeqID": 0,
+                    "softwareDeveloper": "OTAKESAN",
+                    "featuredProduct": false,
+                    "sku": "7100076902",
+                    "eshopDetails": {
+                        "discountPriceEnd": "2024-03-21T06:59:59Z",
+                        "goldPoints": 46,
+                        "baseGoldPoints": 46
+                    },
+                    "collectionPriceRange": "$0 - $9.99",
+                    "updatedAt": "2024-02-29T21:26:03.000Z",
+                    "franchises": [],
+                    "urlKey": "lazriel-the-demons-fall-switch",
+                    "categoryIds": [
+                        "ODUx",
+                        "ODU0"
+                    ],
+                    "releaseDateDisplay": null,
+                    "objectID": "7100076902",
+                    "description": null,
+                    "platinumPoints": null,
+                    "editions": [
+                        "Digital"
+                    ],
+                    "nsuid": "70010000076902",
+                    "contentRatingCode": "E",
+                    "demoNsuid": null,
+                    "genres": [
+                        "Strategy",
+                        "Role-Playing"
+                    ],
+                    "url": "/us/store/products/lazriel-the-demons-fall-switch/",
+                    "contentDescriptors": [
+                        {
+                            "label": "Mild Fantasy Violence",
+                            "type": "CONTENT_DESCRIPTOR"
+                        }
+                    ],
+                    "platform": "Nintendo Switch",
+                    "priceRange": "$5 - $9.99",
+                    "exclusive": false,
+                    "esrbRating": "E",
+                    "productImage": "ncom/software/switch/70010000076902/c8b69660af70576b3f1f30ebd41c2749802198dbbe8b25a92f792552d2f8beec",
+                    "dlcType": null,
+                    "isSalableQty": true,
+                    "softwarePublisher": "Waku Waku Games",
+                    "hasDlc": false,
+                    "topLevelFilters": [
+                        "Deals"
+                    ]
+                },
+                {
+                    "featuredProduct": false,
+                    "genres": [
+                        "Adventure",
+                        "Simulation",
+                        "Other"
+                    ],
+                    "_distinctSeqID": 0,
+                    "platinumPoints": null,
+                    "urlKey": "fantastical-mystery-adventure-ultimate-jumbo-jet-murder-case-switch",
+                    "url": "/us/store/products/fantastical-mystery-adventure-ultimate-jumbo-jet-murder-case-switch/",
+                    "topLevelFilters": [],
+                    "franchises": [],
+                    "esrbDescriptors": [
+                        "Blood",
+                        "Violence"
+                    ],
+                    "corePlatforms": [
+                        "Nintendo Switch"
+                    ],
+                    "dlcType": null,
+                    "contentRating": {
+                        "code": "t",
+                        "isCompilation": false,
+                        "requiresAgeGate": false,
+                        "system": "ESRB"
+                    },
+                    "description": null,
+                    "hasDlc": false,
+                    "esrbRating": "T",
+                    "platformCode": "NINTENDO_SWITCH",
+                    "demoNsuid": null,
+                    "editions": [
+                        "Digital"
+                    ],
+                    "contentDescriptors": [
+                        {
+                            "label": "Blood",
+                            "type": "CONTENT_DESCRIPTOR"
+                        },
+                        {
+                            "label": "Violence",
+                            "type": "CONTENT_DESCRIPTOR"
+                        }
+                    ],
+                    "exclusive": false,
+                    "priceRange": "$20 - $39.99",
+                    "collectionPriceRange": "$20 - $39.99",
+                    "availability": [
+                        "Coming soon"
+                    ],
+                    "topLevelCategory": "Games",
+                    "objectID": "7100076273",
+                    "topLevelCategoryCode": "GAMES",
+                    "nsoFeatures": [
+                        "Save Data Cloud"
+                    ],
+                    "isSalableQty": true,
+                    "price": {
+                        "regPrice": 39.99,
+                        "finalPrice": 39.99,
+                        "salePrice": null
+                    },
+                    "title": "Fantastical Mystery Adventure Ultimate Jumbo Jet Murder Case",
+                    "contentRatingCode": "T",
+                    "releaseDateDisplay": null,
+                    "eshopDetails": {
+                        "discountPriceEnd": null,
+                        "goldPoints": null,
+                        "baseGoldPoints": null
+                    },
+                    "productImage": "ncom/software/switch/70010000076273/b317013693d0d034b122eac66a3ee6723b6699b6d323a02a5a28e9ae59af6254",
+                    "platform": "Nintendo Switch",
+                    "nsuid": "70010000076273",
+                    "updatedAt": "2024-02-29T17:13:10.000Z",
+                    "playerCount": "Single Player",
+                    "releaseDate": "2024-03-14T00:00:00.000Z",
+                    "softwarePublisher": "CyberStep",
+                    "playModes": [
+                        "TV mode",
+                        "Tabletop mode",
+                        "Handheld mode"
+                    ],
+                    "categoryIds": [
+                        "ODUx",
+                        "ODU0"
+                    ],
+                    "softwareDeveloper": null,
+                    "sku": "7100076273"
+                },
+                {
+                    "platform": "Nintendo Switch",
+                    "sku": "7100076065",
+                    "nsoFeatures": [
+                        "Save Data Cloud"
+                    ],
+                    "topLevelCategoryCode": "GAMES",
+                    "productImage": "ncom/software/switch/70010000076065/15799f000e441d1074613ba758376ae89ab8f0f9fc571e313735883ab9fdee7b",
+                    "platformCode": "NINTENDO_SWITCH",
+                    "franchises": [],
+                    "eshopDetails": {
+                        "discountPriceEnd": null,
+                        "goldPoints": 150,
+                        "baseGoldPoints": 150
+                    },
+                    "isSalableQty": true,
+                    "title": "GYLT",
+                    "playerCount": "Single Player",
+                    "topLevelFilters": [],
+                    "description": null,
+                    "dlcType": null,
+                    "exclusive": false,
+                    "contentDescriptors": [
+                        {
+                            "label": "Fantasy Violence",
+                            "type": "CONTENT_DESCRIPTOR"
+                        },
+                        {
+                            "label": "Mild Blood",
+                            "type": "CONTENT_DESCRIPTOR"
+                        }
+                    ],
+                    "corePlatforms": [
+                        "Nintendo Switch"
+                    ],
+                    "editions": [
+                        "Digital"
+                    ],
+                    "hasDlc": false,
+                    "platinumPoints": null,
+                    "_distinctSeqID": 0,
+                    "contentRatingCode": "T",
+                    "playModes": [
+                        "TV mode",
+                        "Tabletop mode",
+                        "Handheld mode"
+                    ],
+                    "featuredProduct": false,
+                    "releaseDate": "2024-03-14T00:00:00.000Z",
+                    "priceRange": "$20 - $39.99",
+                    "demoNsuid": null,
+                    "categoryIds": [
+                        "ODUx",
+                        "ODU0"
+                    ],
+                    "collectionPriceRange": "$20 - $39.99",
+                    "topLevelCategory": "Games",
+                    "urlKey": "gylt-switch",
+                    "softwarePublisher": "TEQUILAWORKS",
+                    "nsuid": "70010000076065",
+                    "contentRating": {
+                        "code": "t",
+                        "isCompilation": false,
+                        "requiresAgeGate": false,
+                        "system": "ESRB"
+                    },
+                    "url": "/us/store/products/gylt-switch/",
+                    "availability": [
+                        "Pre-order",
+                        "Coming soon"
+                    ],
+                    "updatedAt": "2024-02-20T08:59:17.000Z",
+                    "releaseDateDisplay": null,
+                    "objectID": "7100076065",
+                    "esrbDescriptors": [
+                        "Fantasy Violence",
+                        "Mild Blood"
+                    ],
+                    "esrbRating": "T",
+                    "genres": [
+                        "Action",
+                        "Adventure",
+                        "Puzzle"
+                    ],
+                    "softwareDeveloper": "Tequila Works",
+                    "price": {
+                        "regPrice": 29.99,
+                        "finalPrice": 29.99,
+                        "salePrice": null
+                    }
+                },
+                {
+                    "nsuid": "70010000074339",
+                    "contentDescriptors": [],
+                    "isSalableQty": true,
+                    "esrbDescriptors": [],
+                    "title": "Sphinx - Riddles of the Nile",
+                    "releaseDateDisplay": null,
+                    "exclusive": false,
+                    "sku": "7100074339",
+                    "platform": "Nintendo Switch",
+                    "platformCode": "NINTENDO_SWITCH",
+                    "playerCount": "Single Player",
+                    "esrbRating": "E",
+                    "genres": [
+                        "Puzzle"
+                    ],
+                    "topLevelCategory": "Games",
+                    "topLevelCategoryCode": "GAMES",
+                    "_distinctSeqID": 0,
+                    "contentRating": {
+                        "code": "e",
+                        "isCompilation": false,
+                        "requiresAgeGate": false,
+                        "system": "ESRB"
+                    },
+                    "description": null,
+                    "featuredProduct": false,
+                    "productImage": "ncom/software/switch/70010000074339/bcf843d7c9c1044622456b83a481622e3710602d4ee2cba158557eac9b8ca654",
+                    "updatedAt": "2024-02-29T17:13:32.000Z",
+                    "categoryIds": [
+                        "ODUx",
+                        "ODU0"
+                    ],
+                    "playModes": [
+                        "TV mode",
+                        "Tabletop mode",
+                        "Handheld mode"
+                    ],
+                    "softwareDeveloper": "Polygon Art",
+                    "availability": [
+                        "Pre-order",
+                        "Coming soon"
+                    ],
+                    "urlKey": "sphinx-riddles-of-the-nile-switch",
+                    "topLevelFilters": [],
+                    "priceRange": "$5 - $9.99",
+                    "softwarePublisher": "Polygon Art",
+                    "nsoFeatures": [
+                        "Save Data Cloud"
+                    ],
+                    "collectionPriceRange": "$0 - $9.99",
+                    "editions": [
+                        "Digital"
+                    ],
+                    "hasDlc": false,
+                    "franchises": [],
+                    "releaseDate": "2024-03-14T00:00:00.000Z",
+                    "demoNsuid": null,
+                    "contentRatingCode": "E",
+                    "platinumPoints": null,
+                    "eshopDetails": {
+                        "discountPriceEnd": null,
+                        "goldPoints": 50,
+                        "baseGoldPoints": 50
+                    },
+                    "url": "/us/store/products/sphinx-riddles-of-the-nile-switch/",
+                    "objectID": "7100074339",
+                    "dlcType": null,
+                    "price": {
+                        "finalPrice": 9.99,
+                        "regPrice": 9.99,
+                        "salePrice": null
+                    },
+                    "corePlatforms": [
+                        "Nintendo Switch"
+                    ]
+                },
+                {
+                    "featuredProduct": false,
+                    "objectID": "7100073221",
+                    "esrbRating": "E10",
+                    "description": null,
+                    "dlcType": null,
+                    "nsuid": "70010000073221",
+                    "esrbDescriptors": [
+                        "Mild Fantasy Violence",
+                        "Use of Tobacco"
+                    ],
+                    "platinumPoints": null,
+                    "priceRange": "$10 - $19.99",
+                    "softwarePublisher": "Freedom Games",
+                    "isSalableQty": true,
+                    "topLevelCategory": "Games",
+                    "eshopDetails": {
+                        "discountPriceEnd": null,
+                        "goldPoints": null,
+                        "baseGoldPoints": null
+                    },
+                    "genres": [
+                        "Adventure",
+                        "Role-Playing",
+                        "Strategy",
+                        "Training"
+                    ],
+                    "corePlatforms": [
+                        "Nintendo Switch"
+                    ],
+                    "releaseDate": "2024-03-14T00:00:00.000Z",
+                    "platform": "Nintendo Switch",
+                    "playerCount": "Single Player",
+                    "nsoFeatures": [
+                        "Save Data Cloud"
+                    ],
+                    "availability": [
+                        "Coming soon"
+                    ],
+                    "url": "/us/store/products/monster-tribe-switch/",
+                    "categoryIds": [
+                        "ODUx",
+                        "ODU0"
+                    ],
+                    "playModes": [
+                        "TV mode",
+                        "Tabletop mode",
+                        "Handheld mode"
+                    ],
+                    "price": {
+                        "regPrice": 19.99,
+                        "finalPrice": 19.99,
+                        "salePrice": null
+                    },
+                    "demoNsuid": null,
+                    "title": "Monster Tribe",
+                    "sku": "7100073221",
+                    "contentRatingCode": "E10",
+                    "urlKey": "monster-tribe-switch",
+                    "releaseDateDisplay": null,
+                    "updatedAt": "2024-02-08T19:32:29.000Z",
+                    "exclusive": false,
+                    "franchises": [],
+                    "collectionPriceRange": "$10 - $19.99",
+                    "_distinctSeqID": 0,
+                    "contentRating": {
+                        "code": "e10",
+                        "isCompilation": false,
+                        "requiresAgeGate": false,
+                        "system": "ESRB"
+                    },
+                    "platformCode": "NINTENDO_SWITCH",
+                    "hasDlc": false,
+                    "softwareDeveloper": null,
+                    "topLevelCategoryCode": "GAMES",
+                    "productImage": "ncom/software/switch/70010000073221/0d06a6f82b8cff28b51c9ba0a1a4ff5508dd6756b2243f1686d929b13b5e8acf",
+                    "editions": [
+                        "Digital"
+                    ],
+                    "contentDescriptors": [
+                        {
+                            "label": "Mild Fantasy Violence",
+                            "type": "CONTENT_DESCRIPTOR"
+                        },
+                        {
+                            "label": "Use of Tobacco",
+                            "type": "CONTENT_DESCRIPTOR"
+                        }
+                    ],
+                    "topLevelFilters": []
+                },
+                {
+                    "isSalableQty": true,
+                    "productImage": "ncom/software/switch/70010000072747/9ba28c312da5fbd543f68e02158642683c4ecfdd2196c70b17f67906eb8c9585",
+                    "platformCode": "NINTENDO_SWITCH",
+                    "categoryIds": [
+                        "ODUx",
+                        "ODU0"
+                    ],
+                    "eshopDetails": {
+                        "discountPriceEnd": null,
+                        "goldPoints": null,
+                        "baseGoldPoints": null
+                    },
+                    "_distinctSeqID": 0,
+                    "url": "/us/store/products/unables-switch/",
+                    "nsuid": "70010000072747",
+                    "sku": "7100072747",
+                    "topLevelCategory": "Games",
+                    "objectID": "7100072747",
+                    "urlKey": "unables-switch",
+                    "demoNsuid": null,
+                    "topLevelCategoryCode": "GAMES",
+                    "releaseDate": "2024-03-14T00:00:00.000Z",
+                    "dlcType": null,
+                    "contentRatingCode": "T",
+                    "updatedAt": "2024-02-09T21:43:42.000Z",
+                    "esrbRating": "T",
+                    "genres": [
+                        "Arcade",
+                        "Action"
+                    ],
+                    "topLevelFilters": [],
+                    "availability": [
+                        "Coming soon"
+                    ],
+                    "hasDlc": false,
+                    "franchises": [],
+                    "releaseDateDisplay": null,
+                    "contentRating": {
+                        "code": "t",
+                        "isCompilation": false,
+                        "requiresAgeGate": false,
+                        "system": "ESRB"
+                    },
+                    "corePlatforms": [
+                        "Nintendo Switch"
+                    ],
+                    "editions": [
+                        "Digital"
+                    ],
+                    "softwarePublisher": "Forever Entertainment",
+                    "playerCount": "Single Player",
+                    "softwareDeveloper": null,
+                    "platinumPoints": null,
+                    "title": "UNABLES",
+                    "price": {
+                        "finalPrice": 12.99,
+                        "regPrice": 12.99,
+                        "salePrice": null
+                    },
+                    "contentDescriptors": [
+                        {
+                            "label": "Crude Humor",
+                            "type": "CONTENT_DESCRIPTOR"
+                        },
+                        {
+                            "label": "Suggestive Themes",
+                            "type": "CONTENT_DESCRIPTOR"
+                        },
+                        {
+                            "label": "Language",
+                            "type": "CONTENT_DESCRIPTOR"
+                        },
+                        {
+                            "label": "Drug Reference",
+                            "type": "CONTENT_DESCRIPTOR"
+                        }
+                    ],
+                    "collectionPriceRange": "$10 - $19.99",
+                    "description": null,
+                    "playModes": [
+                        "TV mode",
+                        "Tabletop mode",
+                        "Handheld mode"
+                    ],
+                    "priceRange": "$10 - $19.99",
+                    "esrbDescriptors": [
+                        "Crude Humor",
+                        "Suggestive Themes",
+                        "Language",
+                        "Drug Reference"
+                    ],
+                    "nsoFeatures": [
+                        "Save Data Cloud"
+                    ],
+                    "platform": "Nintendo Switch",
+                    "exclusive": false,
+                    "featuredProduct": false
+                }
+            ],
+            "nbHits": 18870,
+            "hitsPerPage": 40,
+            "index": "store_game_en_us",
+            "page": 3,
+            "nbPages": 25,
+            "processingTimeMS": 21,
+            "processingTimingsMS": {
+                "_request": {
+                    "roundTrip": 1
+                },
+                "total": 21,
+                "fetch": {
+                    "facetingAfterDistinct": 1,
+                    "scanning": 18,
+                    "total": 19
+                }
+            },
+            "exhaustiveNbHits": true,
+            "exhaustiveTypo": true,
+            "facets_stats": {
+                "esrbRating": {
+                    "min": 0,
+                    "max": 0,
+                    "avg": 0,
+                    "sum": 0
+                },
+                "softwareDeveloper": {
+                    "min": 2054,
+                    "max": 3909,
+                    "avg": 2981,
+                    "sum": 5963
+                },
+                "softwarePublisher": {
+                    "min": 2054,
+                    "max": 3909,
+                    "avg": 2981,
+                    "sum": 5963
+                }
+            },
+            "query": "",
+            "queryID": "0d745074b5c4b3d042ffdc24bc25f08f",
+            "params": "analytics=true&attributesToHighlight=%5B%22description%22%5D&clickAnalytics=true&facetingAfterDistinct=true&facets=%5B%22%2A%22%5D&filters=%28NOT+objectID%3A7100072191+AND+NOT+objectID%3A7100068688+AND+NOT+objectID%3A7100063714+AND+NOT+objectID%3A7100005308+AND+NOT+objectID%3A7100068678+AND+NOT+objectID%3A7100000153+AND+NOT+objectID%3A7100012332+AND+NOT+objectID%3A7100027619+AND+NOT+objectID%3A7100001130+AND+NOT+objectID%3A7100042934+AND+NOT+objectID%3A7100005022+AND+NOT+objectID%3A7100077705+AND+NOT+objectID%3A7100072954+AND+NOT+objectID%3A7100072957+AND+NOT+objectID%3A7100078577+AND+NOT+objectID%3A7100065249+AND+NOT+objectID%3A7100077858+AND+NOT+objectID%3A7100067943+AND+NOT+objectID%3A7100044345+AND+NOT+objectID%3A7100063988+AND+NOT+objectID%3A7100072191+AND+NOT+objectID%3A7100072196+AND+NOT+objectID%3A7100068688+AND+NOT+objectID%3A7100068683+AND+NOT+objectID%3A7100068678+AND+NOT+objectID%3A7100053942+AND+NOT+objectID%3A7100068743+AND+NOT+objectID%3A7100074046+AND+NOT+objectID%3A7100069582+AND+NOT+objectID%3A7100064845+AND+NOT+objectID%3A7100058802+AND+NOT+objectID%3A7100012332+AND+NOT+objectID%3A7100046189+AND+NOT+objectID%3A7700018073+AND+NOT+objectID%3A7100056316+AND+NOT+objectID%3A7100066005+AND+NOT+objectID%3A7100062079+AND+NOT+objectID%3A7100061749+AND+NOT+objectID%3A7100061356+AND+NOT+objectID%3A7100053336+AND+NOT+objectID%3A7100068693+AND+NOT+objectID%3A7100005308+AND+NOT+objectID%3A7100046395+AND+NOT+objectID%3A7100058797+AND+NOT+objectID%3A7100018694+AND+NOT+objectID%3A7100039366+AND+NOT+objectID%3A7100058316+AND+NOT+objectID%3A7100067404+AND+NOT+objectID%3A7100012385+AND+NOT+objectID%3A7100058468+AND+NOT+objectID%3A7200000061+AND+NOT+objectID%3A7100072186+AND+NOT+objectID%3A7100062478+AND+NOT+objectID%3A7100062483+AND+NOT+objectID%3A7700016659+AND+NOT+objectID%3A7700016660+AND+NOT+objectID%3A7100046983+AND+NOT+objectID%3A7100046988+AND+NOT+objectID%3A7100023176+AND+NOT+objectID%3A7100012879+AND+NOT+objectID%3A7100074046+AND+NOT+objectID%3A7100064845+AND+NOT+objectID%3A7100063645+AND+NOT+objectID%3A7100073050+AND+NOT+objectID%3A7100038712+AND+NOT+objectID%3A7100069454+AND+NOT+objectID%3A7100047127+AND+NOT+objectID%3A7100069068+AND+NOT+objectID%3A7100051026+AND+NOT+objectID%3A7100060372%29&highlightPostTag=%5E%2A&highlightPreTag=%5E%2A%5E%5E&hitsPerPage=40&maxValuesPerFacet=100&page=3&tagFilters",
+            "facets": {
+                "genres": {
+                    "Action": 5705,
+                    "Adventure": 5326,
+                    "Arcade": 3962,
+                    "Puzzle": 3610,
+                    "Simulation": 2306,
+                    "Platformer": 1939,
+                    "Strategy": 1852,
+                    "Role-Playing": 1827,
+                    "Other": 1342,
+                    "Multiplayer": 1324,
+                    "Party": 1090,
+                    "Board Game": 875,
+                    "Sports": 852,
+                    "Racing": 784,
+                    "Fighting": 703,
+                    "Education": 669,
+                    "Lifestyle": 469,
+                    "Training": 375,
+                    "Study": 307,
+                    "Music": 305,
+                    "First-Person": 295,
+                    "Practical": 164,
+                    "Utility": 108,
+                    "Video": 27,
+                    "Indie": 10,
+                    "Application": 3
+                },
+                "hasDlc": {
+                    "false": 11774,
+                    "true": 7218
+                },
+                "dlcType": {
+                    "Individual": 5622,
+                    "ROM Bundle": 1150,
+                    "Bundle": 446
+                },
+                "editions": {
+                    "Digital": 19000,
+                    "Physical": 176,
+                    "Special Edition": 8
+                },
+                "esrbRating": {
+                    "E": 7423,
+                    "T": 5685,
+                    "E10": 3842,
+                    "M": 1950,
+                    "E_T": 13,
+                    "E-E10": 12,
+                    "T_M": 11,
+                    "RP": 10,
+                    "E10_T": 9,
+                    "E_E10": 9,
+                    "E_M": 8,
+                    "E10-T": 6,
+                    "E-T": 5,
+                    "T-M": 5,
+                    "E-M": 3,
+                    "E10-M": 1,
+                    "E10_M": 1
+                },
+                "franchises": {
+                    "Super Mario": 42,
+                    "Pokémon": 35,
+                    "Mario": 20,
+                    "The Legend of Zelda": 16,
+                    "Zelda": 10,
+                    "Fire Emblem": 8,
+                    "Kirby": 7,
+                    "Link": 7,
+                    "Luigi": 7,
+                    "Donkey Kong": 6,
+                    "Splatoon": 5,
+                    "Toad": 5,
+                    "Yoshi": 5,
+                    "Metroid": 4,
+                    "Peach": 4,
+                    "Princess Peach": 4,
+                    "Animal Crossing": 3,
+                    "Other": 3,
+                    "Pikmin": 3,
+                    "Pikachu": 2,
+                    "Samus": 2,
+                    "Super Mario baddies": 2,
+                    "Star Fox": 1
+                },
+                "priceRange": {
+                    "$0 - $4.99": 7511,
+                    "$5 - $9.99": 4327,
+                    "$10 - $19.99": 3979,
+                    "$20 - $39.99": 1570,
+                    "$40+": 740,
+                    "Free to start": 637
+                },
+                "nsoFeatures": {
+                    "Save Data Cloud": 11780,
+                    "Online Play": 1035
+                },
+                "playerCount": {
+                    "Single Player": 9285,
+                    "2+": 1716,
+                    "4+": 1374,
+                    "3+": 26
+                },
+                "availability": {
+                    "Available now": 18648,
+                    "New releases": 159,
+                    "Coming soon": 136,
+                    "Pre-order": 38
+                },
+                "corePlatforms": {
+                    "Nintendo Switch": 18995,
+                    "iOS / Android": 8,
+                    "Nintendo 3DS / 2DS": 1
+                },
+                "topLevelFilters": {
+                    "DLC": 5622,
+                    "Deals": 2544,
+                    "Games with DLC": 972,
+                    "Demo Available": 557,
+                    "Game Voucher eligible": 60
+                },
+                "visibleInSearch": {
+                    "true": 14013
+                },
+                "softwareDeveloper": {
+                    "Sometimes You": 87,
+                    "EpiXR Games": 45,
+                    "Artifex Mundi": 40,
+                    "Benjamin Kistler": 39,
+                    "Benoit Varasse": 37,
+                    "Entity3 Limited": 36,
+                    "Megame Studio": 33,
+                    "Kistler Studios": 28,
+                    "Digital Game Group": 25,
+                    "Red Fables Corp": 25,
+                    "Lightwood Games": 24,
+                    "Idea Factory": 23,
+                    "Nintendo": 23,
+                    "eastasiasoft, ZOO Corporation": 22,
+                    "EXE-CREATE": 21,
+                    "Daedalic Entertainment": 20,
+                    "Exe Create Inc.": 20,
+                    "QUByte Interactive": 20,
+                    "ARC SYSTEM WORKS": 19,
+                    "M2": 19,
+                    "t-bull S.A": 19,
+                    "909games": 18,
+                    "Baltoro Games": 17,
+                    "GotchaGotchaGames": 17,
+                    "Hook Games": 17,
+                    "SEGA": 17,
+                    "Dolores Entertainment": 16,
+                    "HugePixel": 16,
+                    "Mindscape": 16,
+                    "Ocean Media LLC": 16,
+                    "SAT-BOX": 16,
+                    "Marionette Games": 15,
+                    "winterworks GmbH": 15,
+                    "Aldora Games": 14,
+                    "Eclipse Games": 14,
+                    "EnjoyUp Games": 14,
+                    "EntwicklerX": 14,
+                    "McPeppergames UG (haftungsbeschraenkt) and Co. KG": 14,
+                    "Tiny Little Lion": 14,
+                    "10tons Ltd": 13,
+                    "Cateia Games": 13,
+                    "INTI CREATES": 13,
+                    "Jackbox Games, Inc.": 13,
+                    "Mens Sana Interactive": 13,
+                    "Super PowerUp Games": 13,
+                    "eSolutions": 13,
+                    "17Studio LLC": 12,
+                    "Atypical Games": 12,
+                    "CAPCOM": 12,
+                    "Jupiter Corporation": 12,
+                    "origamihero games": 12,
+                    "AlignmentSharp": 11,
+                    "CAPCOM CO., LTD.": 11,
+                    "Crazysoft Limited": 11,
+                    "GAME FREAK inc.": 11,
+                    "Glitch Games": 11,
+                    "Spacefarer Games Ltd": 11,
+                    "TT Games": 11,
+                    "Wales Interactive": 11,
+                    "WayForward": 11,
+                    "CITY CONNECTION CO., LTD.": 10,
+                    "Crazy Labs Ltd.": 10,
+                    "Domini Games": 10,
+                    "Green Sauce Games": 10,
+                    "Humongous Entertainment": 10,
+                    "Nippon Ichi Software, Inc.": 10,
+                    "RedDeerGames": 10,
+                    "T-Bull S.A.": 10,
+                    "Brocheta Team": 9,
+                    "G-MODE Corporation": 9,
+                    "Marvelous Inc.": 9,
+                    "Ovilex Soft": 9,
+                    "SQUARE ENIX": 9,
+                    "Score Studios": 9,
+                    "West Connection Limited": 9,
+                    "Zen Studios": 9,
+                    "D4Enterprise Co.,Ltd.": 8,
+                    "Dead Drop Studios LLC": 8,
+                    "Entwickler-X GbR Thomas Claus und Frank Menzel": 8,
+                    "GameCo Mobile": 8,
+                    "Idea Factory/Compile Heart": 8,
+                    "InLogic": 8,
+                    "KOEI TECMO GAMES CO., LTD.": 8,
+                    "Korion Interactive GmbH": 8,
+                    "Plitka Games": 8,
+                    "Polygon Art": 8,
+                    "Seaven Studio": 8,
+                    "Soroka Games": 8,
+                    "Auroch Digital": 7,
+                    "Blowfish Studios": 7,
+                    "Blue Sunset Games": 7,
+                    "Clickteam USA, LLC": 7,
+                    "FarSight Studios, Inc.": 7,
+                    "Frozenbyte": 7,
+                    "HALVA Studio": 7,
+                    "Higgs Games GmbH": 7,
+                    "Light Ape Games": 7,
+                    "Milestone Srl": 7,
+                    "Nightdive Studios": 7,
+                    "OperaHouse Corporation": 7
+                },
+                "softwarePublisher": {
+                    "RedDeer.Games": 525,
+                    "BANDAI NAMCO Entertainment": 480,
+                    "KOEI TECMO AMERICA": 480,
+                    "NIS America": 449,
+                    "CAPCOM": 415,
+                    "HAMSTER": 407,
+                    "Nintendo": 345,
+                    "QubicGames": 330,
+                    "RedDeerGames": 276,
+                    "KEMCO": 273,
+                    "Ratalaika Games": 267,
+                    "Ultimate Games": 243,
+                    "Marvelous (XSEED)": 219,
+                    "eastasiasoft": 211,
+                    "SEGA": 188,
+                    "PQube": 182,
+                    "Lightwood Games": 175,
+                    "SQUARE ENIX": 163,
+                    "Nacon": 146,
+                    "MUTAN": 138,
+                    "althi": 137,
+                    "QUByte Interactive": 133,
+                    "Baltoro Games": 127,
+                    "Ubisoft": 125,
+                    "Idea Factory": 119,
+                    "WB Games": 119,
+                    "THQ Nordic": 118,
+                    "Forever Entertainment": 116,
+                    "Plug In Digital": 111,
+                    "BottleCube": 108,
+                    "Team17": 108,
+                    "Ocean Media": 104,
+                    "TAITO": 102,
+                    "Milestone": 98,
+                    "Pix Arts": 98,
+                    "Microids": 97,
+                    "Sometimes You": 87,
+                    "Voltage": 84,
+                    "D3 Publisher": 82,
+                    "Magic Pixel": 82,
+                    "Cooking & Publishing": 79,
+                    "SAT-BOX": 74,
+                    "Prison Games": 71,
+                    "Outright Games": 70,
+                    "PLAION": 70,
+                    "Kistler Studios": 68,
+                    "Silesia Games": 65,
+                    "Zen Studios": 65,
+                    "tinyBuild Games": 65,
+                    "Digerati": 64,
+                    "Game Mill": 64,
+                    "ARC SYSTEM WORKS": 63,
+                    "Electronic Arts": 61,
+                    "Devolver Digital": 60,
+                    "Gamuzumi": 60,
+                    "JanduSoft": 60,
+                    "Megame": 60,
+                    "Focus Entertainment": 58,
+                    "Sabec": 57,
+                    "Kairosoft": 55,
+                    "RebellionInteract": 54,
+                    "ESDigital Games": 52,
+                    "GAME NACIONAL": 52,
+                    "PM Studios": 52,
+                    "Gotcha Gotcha Games": 50,
+                    "Headup Games": 50,
+                    "Mojang": 50,
+                    "Artifex Mundi": 48,
+                    "CFK": 48,
+                    "Drageus Games": 48,
+                    "Wired Productions": 47,
+                    "Maximum Entertainment": 46,
+                    "505 Games": 45,
+                    "Humble Games": 45,
+                    "Aksys Games": 44,
+                    "Gametry": 44,
+                    "Merge Games": 44,
+                    "Bushiroad": 43,
+                    "Entity3": 43,
+                    "Untold Tales": 43,
+                    "Inti Creates": 41,
+                    "Koch Media": 41,
+                    "Weakfish Studio": 41,
+                    "2K": 40,
+                    "No Gravity Games": 40,
+                    "Digital Game Group": 39,
+                    "FarSight Studios": 39,
+                    "Spike Chunsoft US": 39,
+                    "CyberStep": 38,
+                    "Erlano": 38,
+                    "PLAYISM": 38,
+                    "Regista": 38,
+                    "naptime.games": 38,
+                    "Baltoro Minis": 37,
+                    "EpiXR Games": 37,
+                    "ININ Games": 37,
+                    "TROOOZE": 36,
+                    "Daedalic Entertainment": 35,
+                    "KalypsoMediaGroup": 35,
+                    "Raw Fury": 35
+                }
+            },
+            "renderingContent": {},
+            "exhaustive": {
+                "facetsCount": true,
+                "facetValues": false,
+                "nbHits": true,
+                "typo": true
+            },
+            "exhaustiveFacetsCount": true
+        }
+    ]
+}
