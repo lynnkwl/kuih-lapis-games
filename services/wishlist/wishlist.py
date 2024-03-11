@@ -1,11 +1,11 @@
 from flask import Flask, request, jsonify
 from flask_sqlalchemy import SQLAlchemy
-
+import json 
 from os import environ
 
 app = Flask(__name__)
 
-app.config['SQLALCHEMY_DATABASE_URI'] = environ.get('dbURL')
+app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+mysqlconnector://root:password@localhost:3306/wishlist_database'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 
 
@@ -21,7 +21,20 @@ class Wishlist(db.Model):
     def __init__(self, customerID, gameName):
         self.customerID = customerID
         self.gameName = gameName
+        
+@app.route("/wishlist/<int:customerID>")
+def return_all_wish_list_of_customer(customerID):
+    wish_list_entries = db.session.query(Wishlist).filter(Wishlist.customerID == customerID).all()
+    wishlist_dicts = [{"customerID": wishlist.customerID, "gameName": wishlist.gameName} for wishlist in wish_list_entries]
 
+    return jsonify(
+            {
+                "code": 200,
+                "data": {
+                    "wishlist": wishlist_dicts
+                }
+            }
+        )
 
 @app.route("/wishlist/<int:customerID>", methods=['POST'])
 def create_user_wishlist(customerID):
