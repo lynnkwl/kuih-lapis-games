@@ -1,28 +1,28 @@
 version: '3'
 services:
-  #################################
-  # Telegram bot: The notification microservice
-  #################################
-  notification:
-    image: caifan4eva/notification:1.0
-    restart: always
-    build: .
-    environment:
-      - TELEGRAM_BOT_TOKEN=6475666330:AAFuGhLSKQ8hGh41wbErRxNE8HDyCLwXlWQ
-    ports:
-      - "8080:5000"
-    # other configurations such as volumes, ports, etc.
+
+  # #################################
+  # # wishlist: The wishlist microservice
+  # #################################
+  # wishlist:
+  #   image: kuehlapis/wishlist:1.0  
+  #   restart: always
+  #   environment:
+  #     dbURL: http://wishlist:5001/wishlist
+  #   ports:
+  #     - "8081:5000"
+
+
 
   #################################
-  # wishlist: The wishlist microservice
+  # send_email: The notification microservice
   #################################
-  wishlist:
-    image: kuehlapis/wishlist:1.0
+  send_email:
+    image: caifan4eva/send_email:1.0
     restart: always
-    environment:
-      dbURL: http://wishlist:5001/wishlist
+    build: .
     ports:
-      - "8081:5000"
+      - "8082:5000"
 
   #################################
   # payment: The payment microservice
@@ -34,25 +34,4 @@ services:
     environment:
       - STRIPE_SECRET_KEY=sk_test_51OrKLBJvTzYZwoklWyczOfr18VRIBOiZSBNuVwGfoSUMHpG1O0TSWW24Q4BClFu0v3B4v4fOuFYsatEtW1MZHNc500KElhXUDE  # Replace with your actual Stripe secret key
     ports:
-      - "8082:9292"  # Replace with the actual ports your service uses
-
-
-  # #################################
-  # # Book: The Book microservice
-  # #################################
-  # book:
-  #   image: caifan4eva/book:1.0
-  #   restart: always
-  #   environment:
-  #     dbURL: mysql+mysqlconnector://is213@host.docker.internal:3306/book
-
-  # ###############################################
-  # # callbook: The test_invoke_http.py program
-  # ############################################### 
-  # callbook:
-  #   image: caifan4eva/callbook:1.0
-  #   depends_on:
-  #     book:
-  #       condition: service_started
-  #   environment:
-  #     bookURL: http://book:15000/book
+      - "8083:9292"  # Replace with the actual ports your service uses
