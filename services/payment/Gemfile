@@ -1,0 +1,12 @@
+# frozen_string_literal: true
+
+source 'https://rubygems.org'
+
+gem 'sinatra'
+gem 'stripe'
+gem 'dotenv'
+gem 'json'
+gem 'sinatra-cross_origin'
+gem 'sinatra-contrib'
+
+gem "rackup", "~> 2.1"

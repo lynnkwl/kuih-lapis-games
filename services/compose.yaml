@@ -24,6 +24,18 @@ services:
     ports:
       - "8081:5000"
 
+  #################################
+  # payment: The payment microservice
+  #################################
+  payment:
+    image: ralphong/payment_microservice:1.0  # Replace with your actual image
+    restart: always
+    build: services/payment # Replace with the path to the Dockerfile of the purchase microservice
+    environment:
+      - STRIPE_SECRET_KEY=sk_test_51OrKLBJvTzYZwoklWyczOfr18VRIBOiZSBNuVwGfoSUMHpG1O0TSWW24Q4BClFu0v3B4v4fOuFYsatEtW1MZHNc500KElhXUDE  # Replace with your actual Stripe secret key
+    ports:
+      - "8082:9292"  # Replace with the actual ports your service uses
+
 
   # #################################
   # # Book: The Book microservice
