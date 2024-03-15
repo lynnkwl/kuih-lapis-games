@@ -6,6 +6,8 @@ import (
 	"fmt"
 	"log"
 	"net/http"
+	"strconv"
+	"github.com/gorilla/mux"
 	"go.mongodb.org/mongo-driver/bson"
 	"go.mongodb.org/mongo-driver/bson/primitive"
 	"go.mongodb.org/mongo-driver/mongo"
@@ -59,10 +61,46 @@ func getAllGames() []primitive.M {
 	return games
 }
 
+//update one game
+func updatePrice(gameId string, newPrice float64){
+	id, _ := primitive.ObjectIDFromHex(gameId)
+	filter := bson.M{"_id" : id}
+	update := bson.M{"$set": bson.M{"Price": newPrice}}
+	
+	result, err := collection.UpdateOne(context.Background(), filter, update)
+	if err != nil {
+		log.Fatal(err)
+	}
+	fmt.Println("Modified game!" , result.ModifiedCount)
+}
+
 //Actual controller - file
 
 func GetMyAllGames (w http.ResponseWriter, r *http.Request) {
 	w.Header().Set("Content-Type", "application/x-www-form-urlencode")
 	allGames := getAllGames()
 	json.NewEncoder(w).Encode(allGames)
+}
+
+func UpdateMyPrice (w http.ResponseWriter, r *http.Request) {
+    w.Header().Set("Content-Type", "application/json")
+    w.Header().Set("Access-Control-Allow-Methods", "PUT")
+
+    // Get parameters from URL path using mux.Vars(r)
+    params := mux.Vars(r)
+    gameID := params["id"]
+    newPriceStr := params["newp"]
+
+    // Convert newPriceStr to an integer
+    newPrice, err := strconv.ParseFloat(newPriceStr,64)
+    if err != nil {
+        http.Error(w, "Invalid price", http.StatusBadRequest)
+        return
+    }
+
+    // Call updatePrice with the converted newPrice
+    updatePrice(gameID, newPrice)
+
+    response := map[string]string{"message": "Price updated successfully"}
+    json.NewEncoder(w).Encode(response)
 }
