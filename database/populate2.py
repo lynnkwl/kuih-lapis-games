@@ -9,7 +9,7 @@ mycol = mydb["games"]
 
 # Assuming the JSON data is stored in a variable called 'json_data'
 # If the JSON data is in a file, you can read it like this:
-with open('./released_games.json', 'r') as file:
+with open('database/released_games.json', 'r') as file:
     json_data = json.load(file)
 
 
@@ -20,7 +20,7 @@ for result in json_data['results']:
     for hit in result['hits']:
         extracted_info.append ({
             'GameName' : hit['title'],
-            'Price' : hit['price'],
+            'Price' : hit['price']['regPrice'],
             'CoverArt' :  'https://assets.nintendo.com/image/upload/ar_16:9,b_auto:border,c_lpad/b_white/f_auto/q_auto/dpr_2.0/c_scale,w_300/' + hit['productImage'],
             'Url' : hit['url'],
             'Genre' : hit['genres'],
