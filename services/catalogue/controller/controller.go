@@ -78,6 +78,7 @@ func updatePrice(gameId string, newPrice float64){
 
 func GetMyAllGames (w http.ResponseWriter, r *http.Request) {
 	w.Header().Set("Content-Type", "application/x-www-form-urlencode")
+	w.Header().Set("Access-Control-Allow-Origin", "*")
 	allGames := getAllGames()
 	json.NewEncoder(w).Encode(allGames)
 }
