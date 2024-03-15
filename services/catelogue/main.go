@@ -1,7 +1,14 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"net/http"
+	"github.com/lynnkwl/kuih-lapis-games/router"
+)
 
 func main() {
-    fmt.Println("Hello, GoLang!")
+	r := router.Router()
+	fmt.Println("Server is getting started...")
+	http.ListenAndServe(":4000", r)
+	fmt.Println("Listening!")
 }
