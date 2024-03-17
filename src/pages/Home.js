@@ -5,6 +5,7 @@ export default class Home extends Component {
   render() {
     return (
       <div>
+        <FilterButton></FilterButton>
         <ProductList/>
       </div>
     )
