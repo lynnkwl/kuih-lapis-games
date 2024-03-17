@@ -1,6 +1,8 @@
 import json
 import pymongo
+import stripe
 
+stripe.api_key = "sk_test_51OrKLBJvTzYZwoklWyczOfr18VRIBOiZSBNuVwGfoSUMHpG1O0TSWW24Q4BClFu0v3B4v4fOuFYsatEtW1MZHNc500KElhXUDE"
 myclient= pymongo.MongoClient("mongodb+srv://lynnkwl:test123@gaames.bta3w6g.mongodb.net/?retryWrites=true&w=majority&appName=Gaames")
 mydb = myclient["games"]
 mycol = mydb["games"]
@@ -20,7 +22,14 @@ for result in json_data['results']:
     for hit in result['hits']:
         extracted_info.append ({
             'GameName' : hit['title'],
-            'Price' : hit['price']['regPrice'],
+            'StripePrice' : 
+            stripe.Price.create(
+            currency="sgd",
+            unit_amount=int(hit['price']['regPrice']*100),
+            recurring=None,
+            product_data={"name": hit['title']},
+            ),
+            'Price' :  hit['price']['regPrice'],
             'CoverArt' :  'https://assets.nintendo.com/image/upload/ar_16:9,b_auto:border,c_lpad/b_white/f_auto/q_auto/dpr_2.0/c_scale,w_300/' + hit['productImage'],
             'Url' : hit['url'],
             'Genre' : hit['genres'],
