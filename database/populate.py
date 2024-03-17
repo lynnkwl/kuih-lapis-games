@@ -20,27 +20,28 @@ extracted_info = []
 
 for result in json_data['results']:
     for hit in result['hits']:
-        extracted_info.append ({
-            'GameName' : hit['title'],
-            'StripePrice' : 
-            stripe.Price.create(
-            currency="sgd",
-            unit_amount=int(hit['price']['regPrice']*100),
-            recurring=None,
-            product_data={"name": hit['title']},
-            ),
-            'Price' :  hit['price']['regPrice'],
-            'CoverArt' :  'https://assets.nintendo.com/image/upload/ar_16:9,b_auto:border,c_lpad/b_white/f_auto/q_auto/dpr_2.0/c_scale,w_300/' + hit['productImage'],
-            'Url' : hit['url'],
-            'Genre' : hit['genres'],
-            'ReleaseDate' : hit['releaseDate'],
-            'Description' : hit['description'],
-            'Availability' : hit['availability'],
-            'Publisher' : hit['softwarePublisher'],
-            'Developer' : hit['softwareDeveloper'],
-            'Platform' : hit['corePlatforms'],
-            'Quantity' : 100
-            })
+        if "Coming soon" in hit['availability']:
+            extracted_info.append ({
+                'GameName' : hit['title'],
+                'StripePrice' : 
+                stripe.Price.create(
+                currency="sgd",
+                unit_amount=int(hit['price']['regPrice']*100),
+                recurring=None,
+                product_data={"name": hit['title']},
+                ),
+                'Price' :  hit['price']['regPrice'],
+                'CoverArt' :  'https://assets.nintendo.com/image/upload/ar_16:9,b_auto:border,c_lpad/b_white/f_auto/q_auto/dpr_2.0/c_scale,w_300/' + hit['productImage'],
+                'Url' : hit['url'],
+                'Genre' : hit['genres'],
+                'ReleaseDate' : hit['releaseDate'],
+                'Description' : hit['description'],
+                'Availability' : "Coming Soon",
+                'Publisher' : hit['softwarePublisher'],
+                'Developer' : hit['softwareDeveloper'],
+                'Platform' : hit['corePlatforms'],
+                'Quantity' : 100
+                })
 
 x = mycol.insert_many(extracted_info)
 

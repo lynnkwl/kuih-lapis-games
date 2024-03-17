@@ -74,8 +74,21 @@ func updatePrice(gameId string, newPrice float64){
 	fmt.Println("Modified game!" , result.ModifiedCount)
 }
 
+//update availability
+func updateAvailability(gameId string){
+	id, _ := primitive.ObjectIDFromHex(gameId)
+	filter := bson.M{"_id" : id}
+	update := bson.M{"$set": bson.M{"Availability": "Available now"}}
+
+	result, err := collection.UpdateOne(context.Background(), filter, update)
+	if err != nil {
+		log.Fatal(err)
+	}
+	fmt.Println("Modified game!" , result.ModifiedCount)
+}
 //Actual controller - file
 
+//get games
 func GetMyAllGames (w http.ResponseWriter, r *http.Request) {
 	w.Header().Set("Content-Type", "application/x-www-form-urlencode")
 	w.Header().Set("Access-Control-Allow-Origin", "*")
@@ -83,6 +96,7 @@ func GetMyAllGames (w http.ResponseWriter, r *http.Request) {
 	json.NewEncoder(w).Encode(allGames)
 }
 
+//update price
 func UpdateMyPrice (w http.ResponseWriter, r *http.Request) {
     w.Header().Set("Content-Type", "application/json")
     w.Header().Set("Access-Control-Allow-Methods", "PUT")
@@ -103,5 +117,18 @@ func UpdateMyPrice (w http.ResponseWriter, r *http.Request) {
     updatePrice(gameID, newPrice)
 
     response := map[string]string{"message": "Price updated successfully"}
+    json.NewEncoder(w).Encode(response)
+}
+
+//update to available
+func UpdateMyAvailability (w http.ResponseWriter, r *http.Request){
+	w.Header().Set("Content-Type", "application/json")
+    w.Header().Set("Access-Control-Allow-Methods", "PUT")
+	params := mux.Vars(r)
+	gameID := params["id"]
+
+	// change availability
+	updateAvailability(gameID)
+	response := map[string]string{"message": "Price updated successfully"}
     json.NewEncoder(w).Encode(response)
 }
