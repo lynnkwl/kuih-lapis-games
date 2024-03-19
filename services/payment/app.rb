@@ -1,4 +1,7 @@
 require 'sinatra'
+
+set :port, 9292
+
 require 'stripe'
 require 'json'
 require 'dotenv'
