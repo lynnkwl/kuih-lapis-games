@@ -40,7 +40,7 @@ export default class ProductList extends React.Component {
                     <Col key={game._id} md={3}>
                         <Card style={{ margin: '10px' }}>
                         <Card.Img variant="top" src={game.CoverArt} />
-                        <Card.Body>
+                        <Card.Body style={{height : '160px'}}>
                             <Card.Title>{game.GameName}</Card.Title>
                             <Card.Text>Price: ${game.Price}</Card.Text>
                             <Button variant="primary">Go somewhere</Button>

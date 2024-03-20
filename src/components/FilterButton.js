@@ -4,8 +4,9 @@ function FilterButton(){
     return (
         <>
         <Button variant="outline-secondary">
-            
+
         </Button>
         </>
     );
 }
+export default FilterButton
