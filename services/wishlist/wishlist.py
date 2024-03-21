@@ -5,14 +5,14 @@ from os import environ
 
 app = Flask(__name__)
 
-app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+mysqlconnector://root:password@localhost:3306/wishlist_database'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+mysqlconnector://root:root@localhost:8889/wishlist_database'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 
-from amqp import amqp_connection
+# import amqp_connection
 
 #create a connection and a channel to the broker to publish messages to activity_log, error queues
-connection = amqp_connection.create_connection() 
-channel = connection.channel()
+# connection = amqp_connection.create_connection() 
+# channel = connection.channel()
 
 db = SQLAlchemy(app)
 
@@ -45,7 +45,7 @@ def return_all_wish_list_of_customer(customerID):
 def create_user_wishlist(customerID):
     existing_wishlist = db.session.query(Wishlist).filter_by(customerID=customerID).first()
 
-    # If the wishlist already exists, remove its entry
+    # If the wishlist already exists, remove its entry~
     if existing_wishlist:
         db.session.delete(existing_wishlist)
         db.session.commit()
@@ -62,13 +62,13 @@ def create_user_wishlist(customerID):
 def sending_log_to_activity_log_view_interaction(customerID):
     message = f"{customerID} has viewed the following item"    
     # publish the message to activity log when user views the games
-    channel.basic_publish(exchange="kuihgames_Activity_Log", routing_key="#", body=message)
+    # channel.basic_publish(exchange="kuihgames_Activity_Log", routing_key="#", body=message)
 
 @app.route("/wishlist/<int:customerID>", methods=['POST'])
 def sending_log_to_activity_log_wishlist_interaction(customerID):
     message = f"{customerID} has added this item to their wishlist"    
     # publish the message to activity log when user views the games
-    channel.basic_publish(exchange="kuihgames_Activity_Log", routing_key="#", body=message)
+    # channel.basic_publish(exchange="kuihgames_Activity_Log", routing_key="#", body=message)
 
 
 if __name__ == '__main__':
