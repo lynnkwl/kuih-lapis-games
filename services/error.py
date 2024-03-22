@@ -2,7 +2,13 @@
 import services.amqp_connection as amqp_connection
 import json
 import pika
+from pymongo import *
 #from os import environ
+
+#MongoDB
+client = MongoClient('mongodb+srv://lynnkwl:test123@gaames.bta3w6g.mongodb.net/')
+db = client['Logs']
+collection = db['Error Log']
 
 e_queue_name = 'kuihgames_Error'        # queue to be subscribed by Error microservice
 
@@ -25,7 +31,7 @@ def receiveError(channel):
 
 def callback(channel, method, properties, body): # required signature for the callback; no return
     print("\nerror microservice: Received an error by " + __file__)
-    processError(body)
+    processError(json.loads(body))
     print()
 
 def processError(errorMsg):
@@ -36,6 +42,7 @@ def processError(errorMsg):
     except Exception as e:
         print("--NOT JSON:", e)
         print("--DATA:", errorMsg)
+    collection.insert_one({"error": errorMsg})
     print()
 
 if __name__ == "__main__": # execute this program only if it is run as a script (not by 'import')    
