@@ -33,11 +33,22 @@ def recommend():
 
             #step 1: compile user's fave genre from wishlist
             #   can add game genre into wishlist as well
+            favourite_genre = req['payload'][0]
+        
             #step 1.5: compile user's interested genre from activity log
+            
+            
             #step 2: get all games of that genre from catalog
+            
+            
             #step 3: get all games that the customer owns from that genre
+            # fire off an API to user database to obtain it? will ask kango 
+        
+            
             #step 4: filter out games that user already owns
+            
             #step 5: return the list of games
+            
             #step 6: notify customer of the recommendation
 
             # Validate the JSON data
