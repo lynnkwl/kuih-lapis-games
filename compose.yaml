@@ -1,9 +1,9 @@
 version: '3'
 services:
 
-  # #################################
-  # # wishlist: The wishlist microservice
-  # #################################
+  #################################
+  # wishlist: The wishlist microservice
+  #################################
   wishlist:
     image: kuehlapis/wishlist:1.0  
     restart: always
@@ -13,16 +13,16 @@ services:
       - "8081:5000"
 
 
-
   #################################
   # send_email: The notification microservice
   #################################
   send_email:
     image: caifan4eva/send_email:1.0
     restart: always
-    build: .
+    build: ./services/notification
     ports:
       - "8082:5000"
+
 
   #################################
   # payment: The payment microservice
