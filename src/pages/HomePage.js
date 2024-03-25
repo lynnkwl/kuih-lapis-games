@@ -24,8 +24,7 @@ export const HomePage = () => {
 
         return (
             <div className="home">
-                {
-                    games.map((game, index) => {
+                {games.map((game, index) => {
                     return (
                         <Game
                         key={index}

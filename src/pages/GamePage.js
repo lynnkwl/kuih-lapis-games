@@ -27,8 +27,8 @@ export const GamePage = () => {
 	}, [ gameId ])
 
   return (
+	
     <div className="game-page">
-        <h1>{game.Availability}</h1>
         <img src={game.CoverArt} alt=""/>
         <h1>{game.GameName}</h1>
         <h2>Publisher: {game.Publisher}</h2>
