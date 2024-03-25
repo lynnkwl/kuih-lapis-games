@@ -8,6 +8,7 @@ import { HomePage } from '../pages/HomePage';
 import Profile from '../pages/Profile';
 import { GamePage } from '../pages/GamePage';
 import Admin from '../pages/Admin';
+import SuccessPayment from '../pages/SuccessPayment';
 
 function NavbarComp() {
   const { isAuthenticated, loginWithRedirect, logout } = useAuth0(); // Destructure the isAuthenticated, loginWithRedirect, and logout functions

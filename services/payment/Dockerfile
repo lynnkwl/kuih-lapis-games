@@ -20,4 +20,4 @@ COPY . .
 EXPOSE 9292
 
 # Start the application
-CMD ["ruby", "app.rb"]
+CMD ["rackup", "--host", "0.0.0.0"]
