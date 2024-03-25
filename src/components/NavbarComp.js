@@ -6,6 +6,7 @@ import {BrowserRouter as Router, Routes, Route, Link} from "react-router-dom";
 import Home from '../pages/Home';
 import Profile from '../pages/Profile';
 import Admin from '../pages/Admin';
+import SuccessPayment from '../pages/SuccessPayment';
 
 function NavbarComp() {
   return (
@@ -27,6 +28,7 @@ function NavbarComp() {
       <Route path="/" element={<Home />}/>
       <Route path="/profile" element={<Profile />}/>
       <Route path="/admin" element={<Admin />}/>
+      <Route path="/successpayment" element={<SuccessPayment />}/>
     </Routes>
     </div>
     </Router>

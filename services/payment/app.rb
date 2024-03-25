@@ -1,3 +1,25 @@
+##
+# The PaymentApp class is a Sinatra application that handles payment processing.
+# It provides two routes: a GET route at "/" that returns a greeting message,
+# a GET route at "/session" that retrieves a Stripe Checkout session and its associated PaymentIntent,
+# and a POST route at "/make_payment" that creates a new Stripe Checkout session for a payment.
+#
+# Environment Variables:
+# - STRIPE_SECRET_KEY: The secret key for the Stripe API.
+#
+# Routes:
+# - GET "/": Returns a greeting message.
+# - GET "/session": Retrieves a Stripe Checkout session and its associated PaymentIntent.
+#   The session ID should be provided as a query parameter.
+# - POST "/make_payment": Creates a new Stripe Checkout session for a payment.
+#   The request body should be a JSON object with a "line_items" property that is an array of objects,
+#   each with a "price" and "quantity" property.
+#
+# Each route returns a JSON object with a "status" property that is either "success" or "error".
+# If the status is "success", the object will also include additional data about the request.
+# If the status is "error", the object will include a "message" property with a description of the error.
+
+
 require 'sinatra'
 
 set :port, 9292
@@ -37,7 +59,7 @@ class PaymentApp < Sinatra::Base
       line_items = payload['line_items']  # This should be an array of objects, each with a 'price' and 'quantity' property
 
       checkout = Stripe::Checkout::Session.create({
-        success_url: 'https://example.com/success',
+        success_url: 'http://10.83.7.252:3000/successpayment',
         cancel_url: 'https://example.com/cancel',
         payment_method_types: ['card'],
         line_items: line_items,
@@ -62,6 +84,7 @@ end
 
         refund = Stripe::Refund.create({
         payment_intent: payment_intent_id,
+      
         })
 
         [200, { 'Content-Type' => 'application/json' }, { status: 'success', refund: refund }.to_json]
@@ -69,6 +92,27 @@ end
         [500, { 'Content-Type' => 'application/json' }, { status: 'error', message: e.message }.to_json]
     end
     end
+
+    post '/partialRefund' do
+      begin
+          payload = JSON.parse(request.body.read)
+          session = payload['session']  # This should be the ID of the session
+          amount = payload['amount']  # This should be the amount to refund in cents
+  
+          # Retrieve the session and the associated payment intent
+          session = Stripe::Checkout::Session.retrieve(session)
+          payment_intent_id = session.payment_intent
+  
+          refund = Stripe::Refund.create({
+          payment_intent: payment_intent_id,
+          amount: amount,
+          })
+  
+          [200, { 'Content-Type' => 'application/json' }, { status: 'success', refund: refund }.to_json]
+      rescue => e
+          [500, { 'Content-Type' => 'application/json' }, { status: 'error', message: e.message }.to_json]
+      end
+      end
 
   post '/stripe_webhook' do
     payload = request.body.read
