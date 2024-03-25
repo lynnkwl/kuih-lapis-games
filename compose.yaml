@@ -7,6 +7,9 @@ services:
   wishlist:
     image: kuehlapis/wishlist:1.0  
     restart: always
+    build:
+      context: ./
+      dockerfile: services/wishlist/Dockerfile 
     environment:
       dbURL: http://wishlist:5001/wishlist
     ports:
