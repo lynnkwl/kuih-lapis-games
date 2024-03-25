@@ -3,8 +3,9 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import {BrowserRouter as Router, Routes, Route, Link} from "react-router-dom";
-import Home from '../pages/Home';
+import { HomePage } from '../pages/HomePage';
 import Profile from '../pages/Profile';
+import {GamePage} from '../pages/GamePage'
 import Admin from '../pages/Admin';
 
 function NavbarComp() {
@@ -24,9 +25,10 @@ function NavbarComp() {
       </Container>
     </Navbar>
     <Routes>
-      <Route path="/" element={<Home />}/>
+      <Route path="/" element={<HomePage />}/>
       <Route path="/profile" element={<Profile />}/>
       <Route path="/admin" element={<Admin />}/>
+      <Route path='/game/:gameId' element={<GamePage /> } />
     </Routes>
     </div>
     </Router>

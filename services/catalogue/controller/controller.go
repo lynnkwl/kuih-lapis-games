@@ -43,7 +43,7 @@ func init(){
 func getAllGames() []primitive.M {
 	cur, err := collection.Find(context.Background(), bson.D{})
 	if err != nil {
-		log.Fatal(err)
+		log.Printf("Error finding games: %v", err)
 	}
 
 	var games []primitive.M
@@ -52,7 +52,8 @@ func getAllGames() []primitive.M {
 		var game bson.M
 		err := cur.Decode(&game)
 		if err != nil {
-			log.Fatal(err)
+			log.Printf("Error decoding game: %v", err)
+			continue 
 		}
 		games = append(games, game)
 	}
@@ -69,7 +70,8 @@ func updatePrice(gameId string, newPrice float64){
 	
 	result, err := collection.UpdateOne(context.Background(), filter, update)
 	if err != nil {
-		log.Fatal(err)
+		log.Printf("error updating game price: %v", err)
+		return
 	}
 	fmt.Println("Modified game!" , result.ModifiedCount)
 }
@@ -82,10 +84,29 @@ func updateAvailability(gameId string){
 
 	result, err := collection.UpdateOne(context.Background(), filter, update)
 	if err != nil {
-		log.Fatal(err)
+		log.Printf("error updating game availability: %v", err)
 	}
 	fmt.Println("Modified game!" , result.ModifiedCount)
 }
+
+//get one game by Id
+func getOneGame (gameId string) bson.M{
+	id, _ := primitive.ObjectIDFromHex(gameId)
+	filter := bson.M{"_id" : id}
+	
+	result := collection.FindOne(context.Background(),filter)
+	if result.Err() != nil {
+		log.Printf("error finding game: %v", result.Err())
+	}
+	
+	var game bson.M
+	if err := result.Decode(&game); err != nil {
+		log.Printf("error finding game: %v", err)
+	}
+	
+	return game
+}
+
 //Actual controller - file
 
 //get games
@@ -131,4 +152,15 @@ func UpdateMyAvailability (w http.ResponseWriter, r *http.Request){
 	updateAvailability(gameID)
 	response := map[string]string{"message": "Price updated successfully"}
     json.NewEncoder(w).Encode(response)
+}
+
+//get one game by Id
+func GetGameById (w http.ResponseWriter, r *http.Request) {
+	w.Header().Set("Content-Type", "application/x-www-form-urlencode")
+	w.Header().Set("Access-Control-Allow-Origin", "*")
+	params := mux.Vars(r)
+    gameID := params["id"]
+	game := getOneGame(gameID)
+	json.NewEncoder(w).Encode(game)
+	fmt.Println("Got!")
 }
