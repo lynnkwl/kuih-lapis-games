@@ -14,11 +14,6 @@ export const Game = ({ game }) => {
     <div className="game">
       <Card style={{ margin: "10px" }}>
         <Card.Img variant="top" src={game.CoverArt} />
-<<<<<<< Updated upstream
-        <Card.Body style={{height : '160px'}}>
-            <Card.Title><Link to={`/game/${game._id}`}>{game.GameName}</Link></Card.Title>
-            <Card.Text>Price: ${game.Price}</Card.Text>
-=======
         <Card.Body style={{ height: "160px" }}>
           <Card.Title>
             <Link to={`/game/${game._id}`}>{game.GameName}</Link>
@@ -31,7 +26,6 @@ export const Game = ({ game }) => {
             Add to wishlist
           </Button>
           <Button variant="primary" onClick={handleAddToCart}>Add to cart</Button> {/* Call handleAddToCart when the button is clicked */}
->>>>>>> Stashed changes
         </Card.Body>
       </Card>
     </div>
