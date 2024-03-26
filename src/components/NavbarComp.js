@@ -2,6 +2,7 @@ import React from 'react';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
+import Badge from 'react-bootstrap/Badge';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import { useAuth0 } from '@auth0/auth0-react'; // Import useAuth0 hook
 import { HomePage } from '../pages/HomePage';
@@ -10,9 +11,11 @@ import { GamePage } from '../pages/GamePage';
 import Admin from '../pages/Admin';
 import SuccessPayment from '../pages/SuccessPayment';
 import Cart from '../components/Cart';
+import { useCart } from '../context/CartContext';
 
 function NavbarComp() {
   const { isAuthenticated, loginWithRedirect, logout } = useAuth0(); // Destructure the isAuthenticated, loginWithRedirect, and logout functions
+  const { cart } = useCart(); // Destructure cart from useCart hook
 
   return (
     <Router>
@@ -31,7 +34,9 @@ function NavbarComp() {
                 ) : (
                   <Nav.Link onClick={() => loginWithRedirect()}>Login</Nav.Link>
                 )}
-                <Nav.Link as={Link} to="/cart" class="ml-auto">Cart</Nav.Link>
+                <Nav.Link as={Link} to="/cart" class="ml-auto">Cart
+                <Badge pill variant="danger">{cart.length}</Badge> {/* Display the number of items in the cart */}
+                </Nav.Link>
               </Nav>
             </Navbar.Collapse>
           </Container>
