@@ -22,7 +22,7 @@ function NavbarComp() {
       <div>
         <Navbar expand="lg" className="bg-body-tertiary">
           <Container>
-            <Navbar.Brand href="#home">Kuih Lapis Games</Navbar.Brand>
+            <Navbar.Brand href="/">Kuih Lapis Games</Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
               <Nav className="me-auto">
