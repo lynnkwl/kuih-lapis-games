@@ -8,7 +8,12 @@ import { HomePage } from '../pages/HomePage';
 import Profile from '../pages/Profile';
 import { GamePage } from '../pages/GamePage';
 import Admin from '../pages/Admin';
+<<<<<<< Updated upstream
 // import SuccessPayment from '../pages/SuccessPayment';
+=======
+import SuccessPayment from '../pages/SuccessPayment';
+import Cart from '../components/Cart';
+>>>>>>> Stashed changes
 
 function NavbarComp() {
   const { isAuthenticated, loginWithRedirect, logout } = useAuth0(); // Destructure the isAuthenticated, loginWithRedirect, and logout functions
@@ -30,6 +35,7 @@ function NavbarComp() {
                 ) : (
                   <Nav.Link onClick={() => loginWithRedirect()}>Login</Nav.Link>
                 )}
+                <Nav.Link as={Link} to="/cart" class="ml-auto">Cart</Nav.Link>
               </Nav>
             </Navbar.Collapse>
           </Container>
@@ -39,6 +45,7 @@ function NavbarComp() {
           <Route path="/profile" element={<Profile />} />
           <Route path="/admin" element={<Admin />} />
           <Route path="/game/:gameId" element={<GamePage />} />
+          <Route path="/cart" element={<Cart />} />
         </Routes>
       </div>
     </Router>
