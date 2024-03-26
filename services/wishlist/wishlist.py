@@ -8,11 +8,11 @@ app = Flask(__name__)
 app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+mysqlconnector://root:password@localhost:3306/wishlist_database'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 
-from amqp import amqp_connection
+# import amqp_connection
 
 #create a connection and a channel to the broker to publish messages to activity_log, error queues
-connection = amqp_connection.create_connection() 
-channel = connection.channel()
+# connection = amqp_connection.create_connection() 
+# channel = connection.channel()
 
 db = SQLAlchemy(app)
 
