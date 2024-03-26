@@ -134,6 +134,7 @@ class Order_Item(db.Model):
         'order.order_id', ondelete='CASCADE', onupdate='CASCADE'), nullable=False, index=True)
     game_id = db.Column(db.String(100), nullable = False) 
     quantity = db.Column(db.Integer, nullable = False) #e.g, 2
+    price = db.Column(db.Float, nullable = False)
     order = db.relationship(
         'Order', primaryjoin='Order_Item.order_id == Order.order_id', backref='order_item')
 
@@ -142,6 +143,7 @@ class Order_Item(db.Model):
                 'order_id': self.order_id,
                 'game_id': self.game_id,
                 'quantity': self.quantity,
+                'price': self.price
                 }
 
 @app.route("/order")
@@ -194,7 +196,7 @@ def create_order():
     for item in cart_item:
         order.order_item.append(Order_Item(
             # game_id=item['game_id'], quantity=item['quantity'], retailer_id=item['retailer_id']))
-            game_id=item['_id'], quantity=item['quantity']))
+            game_id=item['_id'], quantity=item['quantity'], price=item["StripePrice"]))
     try:
         db.session.add(order)
         db.session.commit()
