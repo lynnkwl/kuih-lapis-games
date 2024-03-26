@@ -1,0 +1,16 @@
+version: "1"
+
+services:
+ 
+  # order microservice for kueh games
+  order:
+    build:
+      context: ./
+      dockerfile: order.Dockerfile
+    image: kangolee/order:kueh
+    restart: always
+    environment:
+      dbURL: mysql+mysqlconnector://is213@host.docker.internal:3306/kueh_games
+      PYTHONUNBUFFERED: 1
+    ports:
+      - "5000:5000"
