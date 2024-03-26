@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react"
 import axios from "axios"
 import { Card, ListGroup, Container, Row, Col, Image, Button } from 'react-bootstrap';
+import { useCart } from "../context/CartContext";
 
 // router
 import { useParams } from "react-router-dom";
@@ -10,7 +11,12 @@ export const GamePage = () => {
     const { gameId } = useParams();
 
     const [ game, setGame ] = useState([]);
-   
+	
+	const { addToCart } = useCart();
+	const handleAddToCart = () => {
+	  addToCart(game); // Add the game to the cart
+	};
+  
 	
 	useEffect(() => {
 		const handleGameList = () => {
@@ -42,8 +48,13 @@ export const GamePage = () => {
 				<ListGroup.Item>Publisher: {game.Publisher}</ListGroup.Item>
 				<ListGroup.Item>{game.Description}</ListGroup.Item>
 			  </ListGroup>
-				<Button style={{marginRight: '8px'}} variant="primary">Add to wishlist</Button>
-			 	<Button variant="primary">Add to cart</Button>
+			  <Button
+            style={{ marginRight: "8px" }}
+            variant="primary"
+          >
+            Add to wishlist
+          </Button>
+          <Button variant="primary" onClick={handleAddToCart}>Add to cart</Button> {/* Call handleAddToCart when the button is clicked */}
 			</Col>
 		  </Row>
 		</Card>
