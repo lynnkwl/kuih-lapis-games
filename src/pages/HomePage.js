@@ -24,15 +24,24 @@ export const HomePage = () => {
 
         return (
             <div className="home">
-                {games.map((game, index) => {
-                    return (
-                        <Game
-                        key={index}
-                        game={game}
-                        />
-                    )
-                    })
-                }
-		    </div>
+				{games.map((game, index) => {
+					// Calculate row and column indexes
+					const row = Math.floor(index / 3);
+					const col = index % 3;
+
+					// Define styles for grid positioning
+					const style = {
+						gridColumn: col + 1,
+						gridRow: row + 1
+					};
+
+					return (
+						<div key={index} className="game" style={style}>
+							<Game game={game} />
+						</div>
+					);
+				})}
+			</div>
+
         )
       }

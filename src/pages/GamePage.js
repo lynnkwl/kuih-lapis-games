@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react"
 import axios from "axios"
-import { Card, ListGroup, Container, Row, Col, Image } from 'react-bootstrap';
+import { Card, ListGroup, Container, Row, Col, Image, Button } from 'react-bootstrap';
 
 // router
 import { useParams } from "react-router-dom";
@@ -40,9 +40,10 @@ export const GamePage = () => {
 			<Col md={6}>
 			  <ListGroup variant="flush">
 				<ListGroup.Item>Publisher: {game.Publisher}</ListGroup.Item>
-				<ListGroup.Item>Description:</ListGroup.Item>
 				<ListGroup.Item>{game.Description}</ListGroup.Item>
 			  </ListGroup>
+				<Button style={{marginRight: '8px'}} variant="primary">Add to wishlist</Button>
+			 	<Button variant="primary">Add to cart</Button>
 			</Col>
 		  </Row>
 		</Card>

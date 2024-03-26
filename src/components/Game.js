@@ -12,8 +12,6 @@ export const Game = ({game}) => {
         <Card.Body style={{height : '160px'}}>
             <Card.Title><Link to={`/game/${game._id}`}>{game.GameName}</Link></Card.Title>
             <Card.Text>Price: ${game.Price}</Card.Text>
-            <Button style={{marginRight: '8px'}} variant="primary">Add to wishlist</Button>
-            <Button variant="primary">Add to cart</Button>
         </Card.Body>
         </Card>
     </div>
