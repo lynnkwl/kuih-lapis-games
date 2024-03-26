@@ -36,3 +36,9 @@
     transform: rotate(360deg);
   }
 }
+
+@media (min-width: 768px) {.home {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Three columns of equal width */
+  grid-gap: 20px; /* Adjust the gap between games */
+}}

@@ -4,6 +4,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Available Scripts
 
+### `npm install`
+
 In the project directory, you can run:
 
 ### `npm start`
@@ -71,3 +73,10 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 
 ### `npm install @auth0/auth0-react` installs auth0
+
+### `npm install react-bootstrap bootstrap` installs react bootstrap
+
+### `npm install axios` installs axios
+
+### `npm install react-router-dom` installs react-router-dom
+'
