@@ -56,3 +56,13 @@ services:
     build:  Dockerfile # Replace with the path to the Dockerfile of the purchase microservice
     ports:
       - "3000:3000"  # Replace with the actual ports your service uses
+
+  #################################
+  # order : The order microservice
+  #################################
+  order:
+    image: kangolee/order:kueh
+    restart: always
+    build: services/order
+    ports:
+      - "8085:5000"
