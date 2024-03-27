@@ -3,16 +3,18 @@ services:
   #################################
   # wishlist: The wishlist microservice
   #################################
-  # wishlist:
-  #   image: kuehlapis/wishlist:1.0
-  #   restart: always
-  #   build:
-  #     context: ./
-  #     dockerfile: services/wishlist/Dockerfile
-  #   environment:
-  #     dbURL: http://wishlist:5001/wishlist
-  #   ports:
-  #     - "8081:5000"
+  wishlist:
+    image: kuehlapis/wishlist:1.0
+    restart: always
+    build:
+      context: ./
+      dockerfile: services/wishlist/Dockerfile
+    environment:
+      dbURL: http://wishlist:5001/wishlist
+    ports:
+      - "8081:5000"
+    depends_on:
+      - "rabbitmq"
 
   #################################
   # send_email: The notification microservice
