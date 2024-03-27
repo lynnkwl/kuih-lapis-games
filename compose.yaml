@@ -53,7 +53,7 @@ services:
   frontend:
     image: lynnkwl/frontendkuih:1.0
     restart: always
-    build:  Dockerfile # Replace with the path to the Dockerfile of the purchase microservice
+    build: . # Replace with the path to the Dockerfile of the purchase microservice
     ports:
       - "3000:3000"  # Replace with the actual ports your service uses
 
@@ -66,3 +66,21 @@ services:
     build: services/order
     ports:
       - "8085:5000"
+
+  ###################################
+  # RabbitMQ: The messaging broker   
+  ###################################
+  rabbitmq:
+    image: rabbitmq:3-management
+    hostname: kueh-lapis-games
+    restart: always
+    ports:
+      - "5672:5672"
+      - "15672:15672"
+    volumes: 
+      - ./rabbitmq.config:/etc/rabbitmq/rabbitmq.config
+      - ./rabbitmq_definitions.json:/etc/rabbitmq/rabbitmq_definitions.json
+      - rabbitmq_data:/var/lib/rabbitmq
+
+volumes:
+  rabbitmq_data:
