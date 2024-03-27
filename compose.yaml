@@ -48,3 +48,15 @@ services:
     build: services/catalogue # Replace with the path to the Dockerfile of the purchase microservice
     ports:
       - "4300:4300"  # Replace with the actual ports your service uses
+
+  #################################
+  # frontend : The frontend
+  #################################
+
+  frontend:
+    image: lynnkwl/frontendkuih:latest
+    restart: always
+    build:  Dockerfile # Replace with the path to the Dockerfile of the purchase microservice
+    ports:
+      - "3000:3000"  # Replace with the actual ports your service uses
+

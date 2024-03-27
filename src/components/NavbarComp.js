@@ -10,7 +10,7 @@ import Profile from '../pages/Profile';
 import { GamePage } from '../pages/GamePage';
 import Admin from '../pages/Admin';
 import SuccessPayment from '../pages/SuccessPayment';
-import Cart from '../components/Cart';
+import Cart from './Cart';
 import { useCart } from '../context/CartContext';
 
 function NavbarComp() {
