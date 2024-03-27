@@ -60,3 +60,12 @@ services:
     ports:
       - "3000:3000"  # Replace with the actual ports your service uses
 
+  #################################
+  # order : The order microservice
+  #################################
+  order:
+    image: kangolee/order:kueh
+    restart: always
+    build: services/order
+    ports:
+      - "8085:5000"
