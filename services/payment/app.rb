@@ -59,7 +59,8 @@ class PaymentApp < Sinatra::Base
       line_items = payload['line_items']  # This should be an array of objects, each with a 'price' and 'quantity' property
 
       checkout = Stripe::Checkout::Session.create({
-        success_url: 'http://10.83.7.252:3000/successpayment',
+        # success_url: 'http://172.19.0.3:3000/successpayment',
+        success_url: "#{request.scheme}://#{request.host}:3000/successpayment",
         cancel_url: 'https://example.com/cancel',
         payment_method_types: ['card'],
         line_items: line_items,

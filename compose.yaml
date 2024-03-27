@@ -1,18 +1,20 @@
 version: '3'
 services:
-
-  # #################################
-  # # wishlist: The wishlist microservice
-  # #################################
-  wishlist:
-    image: kuehlapis/wishlist:1.0  
-    restart: always
-    environment:
-      dbURL: http://wishlist:5001/wishlist
-    ports:
-      - "8081:5000"
-
-
+  #################################
+  # wishlist: The wishlist microservice
+  #################################
+  # wishlist:
+  #   image: kuehlapis/wishlist:1.0
+  #   restart: always
+  #   build:
+  #     context: ./
+  #     dockerfile: services/wishlist/Dockerfile
+  #   environment:
+  #     dbURL: http://wishlist:5001/wishlist
+  #   ports:
+  #     - "8081:5000"
+  #   depends_on:
+  #     - "rabbitmq"
 
   #################################
   # send_email: The notification microservice
@@ -34,4 +36,53 @@ services:
     environment:
       - STRIPE_SECRET_KEY=sk_test_51OrKLBJvTzYZwoklWyczOfr18VRIBOiZSBNuVwGfoSUMHpG1O0TSWW24Q4BClFu0v3B4v4fOuFYsatEtW1MZHNc500KElhXUDE  # Replace with your actual Stripe secret key
     ports:
-      - "8083:9292"  # Replace with the actual ports your service uses
+      - "8083:9292" # Replace with the actual ports your service uses
+
+  #################################
+  # catalogue : The catalogue microservice
+  #################################
+  catalogue:
+    image: lynnkwl/catalogue:1.0 # Replace with your actual image
+    restart: always
+    build: services/catalogue # Replace with the path to the Dockerfile of the purchase microservice
+    ports:
+      - "4300:4300"  # Replace with the actual ports your service uses
+
+  #################################
+  # frontend : The frontend
+  #################################
+
+  frontend:
+    image: lynnkwl/frontendkuih:1.0
+    restart: always
+    build: . # Replace with the path to the Dockerfile of the purchase microservice
+    ports:
+      - "3000:3000"  # Replace with the actual ports your service uses
+
+  #################################
+  # order : The order microservice
+  #################################
+  # order:
+  #   image: kangolee/order:1.0
+  #   restart: always
+  #   build: services/order
+  #   ports:
+  #     - "8085:5000"
+
+  ###################################
+  # RabbitMQ: The messaging broker   
+  ###################################
+#   rabbitmq:
+#     image: rabbitmq:3-management
+#     hostname: kueh-lapis-games
+#     restart: always
+#     ports:
+#       - "5672:5672"
+#       - "15672:15672"
+#     volumes: 
+#       - ./rabbitmq.config:/etc/rabbitmq/rabbitmq.config
+#       - ./rabbitmq_definitions.json:/etc/rabbitmq/rabbitmq_definitions.json
+#       - rabbitmq_data:/var/lib/rabbitmq
+
+# volumes:
+#   rabbitmq_data:
