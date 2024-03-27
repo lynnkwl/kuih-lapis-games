@@ -2,6 +2,7 @@ import { useState, useEffect } from "react"
 import axios from "axios"
 import { Card, ListGroup, Container, Row, Col, Image, Button } from 'react-bootstrap';
 import { useCart } from "../context/CartContext";
+import {useWishlist} from "../context/WishlistContext";
 
 // router
 import { useParams } from "react-router-dom";
@@ -16,7 +17,11 @@ export const GamePage = () => {
 	const handleAddToCart = () => {
 	  addToCart(game); // Add the game to the cart
 	};
-  
+    
+	const { addToWishlist } = useWishlist();
+	const handleAddToWishlist = () => {
+	  addToWishlist(game); // Add the game to the wishlist
+	};
 	
 	useEffect(() => {
 		const handleGameList = () => {
@@ -50,7 +55,7 @@ export const GamePage = () => {
 			  </ListGroup>
 			  <Button
             style={{ marginRight: "8px" }}
-            variant="primary"
+            variant="primary" onClick={handleAddToWishlist}
           >
             Add to wishlist
           </Button>

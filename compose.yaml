@@ -1,20 +1,18 @@
-version: '3'
+version: "3"
 services:
-
   #################################
   # wishlist: The wishlist microservice
   #################################
   # wishlist:
-  #   image: kuehlapis/wishlist:1.0  
+  #   image: kuehlapis/wishlist:1.0
   #   restart: always
   #   build:
   #     context: ./
-  #     dockerfile: services/wishlist/Dockerfile 
+  #     dockerfile: services/wishlist/Dockerfile
   #   environment:
   #     dbURL: http://wishlist:5001/wishlist
   #   ports:
   #     - "8081:5000"
-
 
   #################################
   # send_email: The notification microservice
@@ -26,24 +24,23 @@ services:
     ports:
       - "8082:5000"
 
-
   #################################
   # payment: The payment microservice
   #################################
   payment:
-    image: ralphong/payment_microservice:1.0  # Replace with your actual image
+    image: ralphong/payment_microservice:1.0 # Replace with your actual image
     restart: always
     build: services/payment # Replace with the path to the Dockerfile of the purchase microservice
     environment:
-      - STRIPE_SECRET_KEY=sk_test_51OrKLBJvTzYZwoklWyczOfr18VRIBOiZSBNuVwGfoSUMHpG1O0TSWW24Q4BClFu0v3B4v4fOuFYsatEtW1MZHNc500KElhXUDE  # Replace with your actual Stripe secret key
+      - STRIPE_SECRET_KEY=sk_test_51OrKLBJvTzYZwoklWyczOfr18VRIBOiZSBNuVwGfoSUMHpG1O0TSWW24Q4BClFu0v3B4v4fOuFYsatEtW1MZHNc500KElhXUDE # Replace with your actual Stripe secret key
     ports:
-      - "8083:9292"  # Replace with the actual ports your service uses
+      - "8083:9292" # Replace with the actual ports your service uses
 
   #################################
   # catalogue : The catalogue microservice
   #################################
   catalogue:
-    image: lynnkwl/catalogue:latest  # Replace with your actual image
+    image: lynnkwl/catalogue:latest # Replace with your actual image
     restart: always
     build: services/catalogue # Replace with the path to the Dockerfile of the purchase microservice
     ports:
@@ -59,13 +56,3 @@ services:
     build:  Dockerfile # Replace with the path to the Dockerfile of the purchase microservice
     ports:
       - "3000:3000"  # Replace with the actual ports your service uses
-
-  #################################
-  # order : The order microservice
-  #################################
-  order:
-    image: kangolee/order:kueh
-    restart: always
-    build: services/order
-    ports:
-      - "8085:5000"

@@ -6,66 +6,67 @@ import os
 from flask import Flask, request, jsonify
 from flask_sqlalchemy import SQLAlchemy
 from random import randint
+import json
 
 from datetime import datetime
 
 #function for generating mock data if its empty
-def generate_mock_data():
-    try:
-        # Generate some mock users if the table is empty
-        if db.session.query(User).count() == 0:
-            for i in range(1, 11):
-                customer_id = f"{i}"
-                email = f"user{i}@example.com"
-                username = f"user{i}"
-                address = f"Address_{randint(1, 100)}"
-                credits = randint(0, 100)
-                user = User(customer_id=customer_id, email=email, username=username, address=address, credits=credits)
-                db.session.add(user)
-                db.session.commit()
+# def generate_mock_data():
+#     try:
+#         # Generate some mock users if the table is empty
+#         if db.session.query(User).count() == 0:
+#             for i in range(1, 11):
+#                 customer_id = f"{i}"
+#                 email = f"user{i}@example.com"
+#                 username = f"user{i}"
+#                 address = f"Address_{randint(1, 100)}"
+#                 credits = randint(0, 100)
+#                 user = User(customer_id=customer_id, email=email, username=username, address=address, credits=credits)
+#                 db.session.add(user)
+#                 db.session.commit()
 
-        # Generate some mock retailers if the table is empty
-        if db.session.query(Retailer).count() == 0:
-            for i in range(1, 11):
-                retailer_id = f"{i}"
-                email = f"retailer{i}@example.com"
-                username = f"retailer{i}"
-                address = f"Address_{randint(1, 100)}"
-                credits = randint(0, 100)
-                retailer = Retailer(retailer_id=retailer_id, email=email, username=username, address=address, credits=credits)
-                db.session.add(retailer)
-                db.session.commit()
+#         # Generate some mock retailers if the table is empty
+#         if db.session.query(Retailer).count() == 0:
+#             for i in range(1, 11):
+#                 retailer_id = f"{i}"
+#                 email = f"retailer{i}@example.com"
+#                 username = f"retailer{i}"
+#                 address = f"Address_{randint(1, 100)}"
+#                 credits = randint(0, 100)
+#                 retailer = Retailer(retailer_id=retailer_id, email=email, username=username, address=address, credits=credits)
+#                 db.session.add(retailer)
+#                 db.session.commit()
 
-        # Generate some mock orders and order items
-        if db.session.query(Order).count() == 0 and db.session.query(Order_Item).count() == 0:
-            for i in range(1,11):
-                # Generate random data for an order
-                order_id = f"{i}"
-                status_options = ['shipped', 'processing', 'cancelled', 'pending']
-                status = status_options[randint(0, len(status_options) - 1)]
-                payment_status_options = ['paid', 'pending', 'failed']
-                payment_status = payment_status_options[randint(0, len(payment_status_options) - 1)]
-                shipping_address = f"Address_{randint(1, 100)}"
-                customer_id = randint(1,10)
+#         # Generate some mock orders and order items
+#         if db.session.query(Order).count() == 0 and db.session.query(Order_Item).count() == 0:
+#             for i in range(1,11):
+#                 # Generate random data for an order
+#                 order_id = f"{i}"
+#                 status_options = ['shipped', 'processing', 'cancelled', 'pending']
+#                 status = status_options[randint(0, len(status_options) - 1)]
+#                 payment_status_options = ['paid', 'pending', 'failed']
+#                 payment_status = payment_status_options[randint(0, len(payment_status_options) - 1)]
+#                 shipping_address = f"Address_{randint(1, 100)}"
+#                 customer_id = randint(1,10)
                 
-                order = Order(order_id=order_id, customer_id=customer_id, status=status, payment_status=payment_status, shipping_address=shipping_address)
-                db.session.add(order)
-                db.session.commit()
+#                 order = Order(order_id=order_id, customer_id=customer_id, status=status, payment_status=payment_status, shipping_address=shipping_address)
+#                 db.session.add(order)
+#                 db.session.commit()
 
-                # Generate random order items for the order
-                for i in range(randint(1, 5)):
-                    game_id = f"GameID_{randint(1, 100)}"
-                    quantity = randint(1, 10)
-                    retailer_id = randint(1,10)
-                    order_item = Order_Item(retailer_id=retailer_id, order_id=order.order_id, game_id=game_id, quantity=quantity)
-                    db.session.add(order_item)
-                    db.session.commit()
+#                 # Generate random order items for the order
+#                 for i in range(randint(1, 5)):
+#                     game_id = f"GameID_{randint(1, 100)}"
+#                     quantity = randint(1, 10)
+#                     retailer_id = randint(1,10)
+#                     order_item = Order_Item(retailer_id=retailer_id, order_id=order.order_id, game_id=game_id, quantity=quantity)
+#                     db.session.add(order_item)
+#                     db.session.commit()
 
-            print("Mock data generation completed.")
-        else:
-            print("Mock data has already been generated before.")
-    except Exception as e:
-        print(f"An error occurred while generating mock data: {e}")
+#             print("Mock data generation completed.")
+#         else:
+#             print("Mock data has already been generated before.")
+#     except Exception as e:
+#         print(f"An error occurred while generating mock data: {e}")
 
 #regular Flask and SQLALCHEMY start
 app = Flask(__name__)
@@ -99,13 +100,14 @@ class Order(db.Model):
     __tablename__ = "order"
 
     order_id = db.Column(db.Integer, primary_key=True) #auto-increments
-    customer_id = db.Column(db.ForeignKey(
-        'user.customer_id', onupdate='CASCADE'), index=True) #taken from Users database
+    # customer_id = db.Column(db.ForeignKey(
+    #     'user.customer_id', onupdate='CASCADE'), index=True) #taken from Users database
+    customer_id = db.Column(db.String(255), nullable = False)
     status = db.Column(db.String(15), nullable = False) #shipped, processing, cancelled, pending
     created = db.Column(db.DateTime, nullable= False, default=datetime.now)
     modified = db.Column(db.DateTime, nullable=False, default=datetime.now, onupdate=datetime.now)
     payment_status = db.Column(db.String(10), nullable = False) #paid, pending, failed #probaby FK from Payment
-    shipping_address = db.Column(db.String(255), nullable = False) 
+    shipping_address = db.Column(db.String(255), nullable = False, default = "81 Victoria St, Singapore 188065") 
     
     def json(self):
         dto = {
@@ -130,10 +132,8 @@ class Order_Item(db.Model):
     item_id = db.Column(db.Integer, primary_key=True) #auto-increments
     order_id = db.Column(db.ForeignKey(
         'order.order_id', ondelete='CASCADE', onupdate='CASCADE'), nullable=False, index=True)
-    game_id = db.Column(db.String(100), nullable = False) #e.g, supermarionintendo
+    game_id = db.Column(db.String(100), nullable = False) 
     quantity = db.Column(db.Integer, nullable = False) #e.g, 2
-    retailer_id = db.Column(db.ForeignKey(
-        'retailer.retailer_id', onupdate='CASCADE'), index=True) #e.g, gamesandwares
     order = db.relationship(
         'Order', primaryjoin='Order_Item.order_id == Order.order_id', backref='order_item')
 
@@ -142,7 +142,6 @@ class Order_Item(db.Model):
                 'order_id': self.order_id,
                 'game_id': self.game_id,
                 'quantity': self.quantity,
-                'retailer_id': self.retailer_id
                 }
 
 @app.route("/order")
@@ -194,8 +193,8 @@ def create_order():
     cart_item = request.json.get('cart_item')
     for item in cart_item:
         order.order_item.append(Order_Item(
-            game_id=item['game_id'], quantity=item['quantity'], retailer_id=item['retailer_id']))
-
+            # game_id=item['game_id'], quantity=item['quantity'], retailer_id=item['retailer_id']))
+            game_id=item['_id'], quantity=item['quantity']))
     try:
         db.session.add(order)
         db.session.commit()
@@ -214,9 +213,64 @@ def create_order():
         }
     ), 201
 
+@app.route("/cidbygame/<string:game_id>")
+def cidbyagame(game_id):
+    orderlist = db.session.scalars(db.select(Order)).all()
+    filtered_orders = []
+    customer_id_list = []
+    game_quantity_list = []
+    for order in orderlist:
+        for item in order.order_item:
+            if item.game_id == game_id:
+                filtered_orders.append(order.json())
+                customer_id_list.append(order.customer_id)
+                game_quantity_list.append(item.quantity)
+
+    result_json = []        
+    if len(filtered_orders) > 0:
+        for i in range(len(customer_id_list)):
+            result_json.append({"customer_id": customer_id_list[i], "game_quantity": game_quantity_list[i]})
+        return result_json
+        # return jsonify(
+        #     {
+        #         "code": 200,
+        #         "data": {
+        #             "orders": filtered_orders
+        #         }
+        #     }
+        # )
+    return jsonify(
+        {
+            "code": 404,
+            "message": "There are no orders."
+        }
+    ), 404
+
+@app.route("/orderlist/<int:customer_id>")
+def orderlistbycid(customer_id):
+    orderlist = db.session.scalars(db.select(Order)).all()
+    filtered_orders = []
+    game_list = []
+    for order in orderlist:
+        for item in order.order_item:
+            if order.customer_id == customer_id:
+                filtered_orders.append(order.json())
+                game_list.append(item.game_id)
+
+    result_json = []        
+    if len(filtered_orders) > 0:
+        return {"customer_id": customer_id, "game_list": game_list}
+    return  jsonify(
+        {
+            "code": 404,
+            "message": "This user have not made not any orders."
+        }
+    ), 404
+
+
 with app.app_context():
     db.create_all()
-    generate_mock_data()
+    # generate_mock_data()
 
 if __name__ == '__main__':
     print("This is flask for " + os.path.basename(__file__) + ": manage orders ...")

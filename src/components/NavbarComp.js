@@ -12,10 +12,13 @@ import Admin from '../pages/Admin';
 import SuccessPayment from '../pages/SuccessPayment';
 import Cart from './Cart';
 import { useCart } from '../context/CartContext';
+import { useWishlist } from '../context/WishlistContext';
+import Wishlist from '../components/Wishlist';
 
 function NavbarComp() {
   const { isAuthenticated, loginWithRedirect, logout } = useAuth0(); // Destructure the isAuthenticated, loginWithRedirect, and logout functions
   const { cart } = useCart(); // Destructure cart from useCart hook
+  const { wishlist } = useWishlist(); // Destructure wishlist from useWishlist hook
 
   return (
     <Router>
@@ -37,6 +40,9 @@ function NavbarComp() {
                 <Nav.Link as={Link} to="/cart" class="ml-auto">Cart
                 <Badge pill variant="danger">{cart.length}</Badge> {/* Display the number of items in the cart */}
                 </Nav.Link>
+                <Nav.Link as={Link} to="/wishlist">Wishlist
+                <Badge pill variant="danger">{wishlist.length}</Badge> {/* Display the number of items in the wishlist */}
+                </Nav.Link>
               </Nav>
             </Navbar.Collapse>
           </Container>
@@ -47,6 +53,7 @@ function NavbarComp() {
           <Route path="/admin" element={<Admin />} />
           <Route path="/game/:gameId" element={<GamePage />} />
           <Route path="/cart" element={<Cart />} />
+          <Route path="/wishlist" element={<Wishlist />} />
         </Routes>
       </div>
     </Router>
