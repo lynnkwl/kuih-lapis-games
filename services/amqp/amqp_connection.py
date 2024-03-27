@@ -8,7 +8,6 @@ port = 5672            # default port
 # hostname = environ.get('hostname') #localhost
 # port = environ.get('port')         #5672 
 
-
 # function to create a connection to the broker
 def create_connection(max_retries=12, retry_interval=5):
     print('amqp_connection: Create_connection')
