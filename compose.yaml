@@ -40,7 +40,7 @@ services:
   # catalogue : The catalogue microservice
   #################################
   catalogue:
-    image: lynnkwl/catalogue:latest # Replace with your actual image
+    image: lynnkwl/catalogue:1.0 # Replace with your actual image
     restart: always
     build: services/catalogue # Replace with the path to the Dockerfile of the purchase microservice
     ports:
@@ -51,7 +51,7 @@ services:
   #################################
 
   frontend:
-    image: lynnkwl/frontendkuih:latest
+    image: lynnkwl/frontendkuih:1.0
     restart: always
     build:  Dockerfile # Replace with the path to the Dockerfile of the purchase microservice
     ports:
