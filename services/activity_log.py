@@ -2,7 +2,13 @@
 import services.amqp.amqp_connection as amqp_connection
 import json
 import pika
+from pymongo import *
 #from os import environ
+
+#MongoDB
+client = MongoClient('mongodb+srv://lynnkwl:test123@gaames.bta3w6g.mongodb.net/')
+db = client['Logs']
+collection = db['Activity Log']
 
 
 a_queue_name = 'kuihgames_Activity_Log' # queue to be subscribed by Activity_Log microservice
@@ -33,6 +39,7 @@ def callback(channel, method, properties, body): # required signature for the ca
 def processOrderLog(order):
     print("activity_log: Recording an order log:")
     print(order)
+    collection.insert_one(order)
 
 if __name__ == "__main__":  # execute this program only if it is run as a script (not by 'import')
     print("activity_log: Getting Connection")
